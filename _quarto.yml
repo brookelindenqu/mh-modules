@@ -1,19 +1,18 @@
 project:
   type: website
+  output-dir: _site
 
 website:
-  title: "mh-modules"
+  title: "Student Mental Health Network"
   navbar:
-    left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
+    background: "#1C2944"
+    foreground: white
+    logo: logo-white.png
+    logo-alt: "SMHN Logo"
+  page-navigation: true
+  search: true
 
 format:
   html:
     theme: cosmo
-    css: styles.css
     toc: true
-
-editor: visual
-

@@ -1,0 +1,172 @@
+---
+title: "Bibliothèque de modules en santé mentale"
+format:
+  html:
+    theme: cosmo
+    toc: false
+---
+```{=html}
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&family=Open+Sans:wght@600;700&display=swap');
+
+  body { font-family: 'Roboto', sans-serif; }
+  h1, h2, h3 { font-family: 'Open Sans', sans-serif; }
+
+  .lang-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-bottom: 1em;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.lang-toggle .lang-label {
+  color: #1C2944;
+}
+
+.lang-toggle .lang-label.muted {
+  color: #aaa;
+}
+
+.toggle-track {
+  width: 44px;
+  height: 24px;
+  background-color: #1C2944;
+  border-radius: 12px;
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.toggle-thumb {
+  position: absolute;
+  top: 3px;
+  width: 18px;
+  height: 18px;
+  background: white;
+  border-radius: 50%;
+  transition: left 0.2s ease;
+}
+
+  .hero {
+    background-color: #1C2944;
+    color: white;
+    padding: 3em 2em;
+    border-radius: 10px;
+    margin-bottom: 2.5em;
+    text-align: center;
+  }
+
+  .hero h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5em;
+    color: white;
+  }
+
+  .hero p {
+    font-size: 1.05rem;
+    font-weight: 300;
+    max-width: 640px;
+    margin: 0 auto;
+    line-height: 1.7;
+    opacity: 0.9;
+  }
+
+  .module-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1.5em;
+    margin-top: 1em;
+  }
+
+  .module-card {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    border: 1px solid #dde3ec;
+    border-radius: 8px;
+    padding: 1.5em;
+    transition: box-shadow 0.2s ease, transform 0.2s ease;
+    background: white;
+  }
+
+  .module-card:hover {
+    box-shadow: 0 6px 20px rgba(28, 41, 68, 0.12);
+    transform: translateY(-2px);
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .module-card .module-number {
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #1C2944;
+    opacity: 0.6;
+    margin-bottom: 0.4em;
+  }
+
+  .module-card h3 {
+    font-size: 1.05rem;
+    margin: 0.2em 0 0.6em 0;
+    color: #1C2944;
+  }
+
+  .module-card p {
+    font-size: 0.9rem;
+    color: #555;
+    line-height: 1.6;
+    margin: 0;
+  }
+
+  .module-card .module-date {
+    font-size: 0.8rem;
+    font-style: italic;
+    color: #888;
+    margin-bottom: 0.6em;
+  }
+
+  .section-label {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #1C2944;
+    border-bottom: 2px solid #1C2944;
+    padding-bottom: 0.3em;
+    margin: 2em 0 1em 0;
+  }
+</style>
+
+<div class="lang-toggle">
+  <a class="lang-label muted" href="index.html">English</a>
+  <a class="toggle-track" href="index.html">
+    <span class="toggle-thumb" style="left: 23px;"></span>
+  </a>
+  <span class="lang-label">Français</span>
+</div>
+
+<div class="hero">
+  <h1>Bibliothèque de modules en santé mentale</h1>
+  <p>Une collection de modules d'apprentissage fondés sur des données probantes, conçus pour soutenir la littératie en santé mentale chez les étudiants postsecondaires à travers le Canada.</p>
+</div>
+
+<div class="section-label">Modules disponibles</div>
+
+<div class="module-grid">
+
+  <a class="module-card" href="Modules/module-1-fr.html">
+    <div class="module-number">Module 1</div>
+    <h3>Introduction à la santé mentale</h3>
+    <div class="module-date">Publié mai 2022</div>
+    <p>Définir la santé mentale et la maladie mentale, qui peut poser un diagnostic, quand les maladies apparaissent, et pourquoi la santé mentale est importante.</p>
+  </a>
+
+</div>
+```

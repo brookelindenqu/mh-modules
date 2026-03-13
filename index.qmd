@@ -1,11 +1,294 @@
 ---
-title: "mh-modules"
+title: "Mental Health Module Library"
+format:
+  html:
+    theme: cosmo
+    toc: false
 ---
 
-This is a Quarto website.
+```{=html}
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&family=Open+Sans:wght@600;700&display=swap');
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+  body { font-family: 'Roboto', sans-serif; }
+  h1, h2, h3 { font-family: 'Open Sans', sans-serif; }
 
-```{r}
-1 + 1
+.quarto-title h1.title {
+  display: none;
+}
+
+.page-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5em;
+  margin-bottom: 1.5em;
+}
+
+.page-header h1 {
+  margin: 0;
+  font-size: 2rem;
+  color: #1C2944;
+}
+
+.navbar-brand img {
+  height: 50px !important;
+  max-height: 50px !important;
+}
+
+  .lang-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-bottom: 1em;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.lang-toggle .lang-label {
+  color: #1C2944;
+}
+
+.lang-toggle .lang-label.muted {
+  color: #aaa;
+}
+
+.toggle-track {
+  width: 44px;
+  height: 24px;
+  background-color: #1C2944;
+  border-radius: 12px;
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.toggle-thumb {
+  position: absolute;
+  top: 3px;
+  width: 18px;
+  height: 18px;
+  background: white;
+  border-radius: 50%;
+  transition: left 0.2s ease;
+}
+
+  .hero {
+    background-color: #1C2944;
+    color: white;
+    padding: 3em 2em;
+    border-radius: 10px;
+    margin-bottom: 2.5em;
+    text-align: center;
+  }
+
+  .hero h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5em;
+    color: white;
+  }
+
+  .hero p {
+    font-size: 1.05rem;
+    font-weight: 300;
+    max-width: 640px;
+    margin: 0 auto;
+    line-height: 1.7;
+    opacity: 0.9;
+  }
+
+  .module-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1.5em;
+    margin-top: 1em;
+  }
+
+  .module-card {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    border: 1px solid #dde3ec;
+    border-radius: 8px;
+    padding: 1.5em;
+    transition: box-shadow 0.2s ease, transform 0.2s ease;
+    background: white;
+  }
+
+.module-card img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 6px;
+  margin-bottom: 0.8em;
+  display: block;
+}
+
+  .module-card:hover {
+    box-shadow: 0 6px 20px rgba(28, 41, 68, 0.12);
+    transform: translateY(-2px);
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .module-card .module-number {
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #1C2944;
+    opacity: 0.6;
+    margin-bottom: 0.4em;
+  }
+
+  .module-card h3 {
+    font-size: 1.05rem;
+    margin: 0.2em 0 0.6em 0;
+    color: #1C2944;
+  }
+
+  .module-card .module-date {
+    font-size: 0.8rem;
+    font-style: italic;
+    color: #888;
+    margin-bottom: 0.6em;
+  }
+
+  .module-card p {
+    font-size: 0.9rem;
+    color: #555;
+    line-height: 1.6;
+    margin: 0;
+  }
+
+  .section-label {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #1C2944;
+    border-bottom: 2px solid #1C2944;
+    padding-bottom: 0.3em;
+    margin: 2em 0 1em 0;
+  }
+  
+  .filter-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5em;
+  margin-bottom: 1.5em;
+}
+
+.filter-btn {
+  padding: 6px 16px;
+  border-radius: 20px;
+  border: 2px solid #1C2944;
+  background: white;
+  color: #1C2944;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.filter-btn:hover {
+  background: #1C2944;
+  color: white;
+}
+
+.filter-btn.active {
+  background: #1C2944;
+  color: white;
+}
+
+.module-card .module-tag {
+  display: inline-block;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #1C2944;
+  background-color: #e8ecf3;
+  border-radius: 4px;
+  padding: 2px 8px;
+  margin-bottom: 0.5em;
+}
+
+.module-card.hidden {
+  display: none;
+}
+</style>
+
+<div class="page-header">
+  <h1>Mental Health Module Library</h1>
+  <div class="lang-toggle">
+    <span class="lang-label">English</span>
+    <a class="toggle-track" href="index-fr.html">
+      <span class="toggle-thumb" style="left: 3px;"></span>
+    </a>
+    <a class="lang-label muted" href="index-fr.html">Français</a>
+  </div>
+</div>
+
+<div class="hero">
+  <p>The Network's Mental Health Module Library includes a collection of evidence-informed learning modules designed to support mental health literacy among post-secondary students across Canada. All module content has been compiled "for students, by students," with relevant Subject Matter Experts providing a thorough review for validity and psychological safety.</p>
+</div>
+
+<div class="section-label">Available Modules</div>
+
+<div class="filter-bar">
+  <button class="filter-btn active" onclick="filterModules('all')">All</button>
+  <button class="filter-btn" onclick="filterModules('foundational')">Foundational Education</button>
+  <button class="filter-btn" onclick="filterModules('selfcare')">Self-Care & Coping</button>
+  <button class="filter-btn" onclick="filterModules('special')">Special Topics</button>
+</div>
+
+<div class="module-grid">
+
+  <a class="module-card" href="Modules/Module-1.html" data-category="foundational">
+  <img src="module1pic.jpg" alt="Introduction to Mental Health">
+    <div class="module-number">Module 1</div>
+    <h3>Introduction to Mental Health</h3>
+    <div class="module-date">Released April 2022</div>
+    <p>In this introductory module, you will learn how mental health and mental illness are distinct, but interconnected concepts. You will learn about the basic fundamentals of mental health, including important terms and concepts, risk factors for the development of mental illness, delivery of mental health care in Canada, and different levels and barriers to help-seeking. Throughout the module, we'll emphasize real-world application of these ideas and concepts to the post-secondary student context.</p>
+  </a>
+
+  <a class="module-card" href="Modules/Module-2.html" data-category="foundational">
+  <img src="module2pic.jpg" alt="Mental Health and Stigma">
+    <div class="module-number">Module 2</div>
+    <h3>Mental Health and Stigma</h3>
+    <div class="module-date">Released June 2022</div>
+    <p>In this module, you will learn about the different types of stigma, as well as the broader impact that stigma can have on individuals living with mental illnesses. Generally, stigma is a negative connotation associated with a circumstance or quality. Stigma is not only an issue due to its effects on the mental health of individuals living with a mental illness, but is also considered to be one of the greatest barriers to the development of mental health programs and help-seeking worldwide. </p>
+  </a>
+
+<a class="module-card" href="Modules/Module-3.html" data-category="foundational">
+  <img src="module3pic.jpg" alt="Mental Health and Intersectionality">
+    <div class="module-number">Module 3</div>
+    <h3>Mental Health and Intersectionality</h3>
+    <div class="module-date">Released May 2022</div>
+    <p>This module examines intersectionality, a framework for understanding how overlapping identities, such as race, gender, disability, and sexuality, interact with systems of privilege and oppression. It explores the experiences of marginalized communities, including BIPOC, Indigenous, disabled, and 2SLGBTQIA+ populations, and the barriers they may face. The module also looks at how these intersections can impact mental health and well-being, considering factors like socioeconomic status, education, and systemic discrimination. </p>
+  </a>
+
+</div>
+
+<script>
+function filterModules(category) {
+  document.querySelectorAll('.filter-btn').forEach(btn => btn.classList.remove('active'));
+  event.target.classList.add('active');
+  document.querySelectorAll('.module-card').forEach(card => {
+    if (category === 'all' || card.dataset.category === category) {
+      card.classList.remove('hidden');
+    } else {
+      card.classList.add('hidden');
+    }
+  });
+}
+</script>
 ```

@@ -1,0 +1,204 @@
+---
+title: "<!-- MODULE TITLE (e.g. Introduction to Mental Health) -->"
+subtitle: "<!-- MODULE NUMBER (e.g. MODULE 1) -->"
+author: ""
+format:
+  html:
+    theme: cosmo
+    toc: true
+    toc-depth: 5
+    toc-expand: true
+---
+
+```{=html}
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Open+Sans&display=swap');
+
+  body {
+    font-family: 'Roboto', sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  h1 { font-size: 1.6rem !important; }
+  h2 { font-size: 1.2rem !important; }
+  h3 { font-size: 1.1rem !important; }
+  h4 { font-size: 1.0rem !important; }
+
+  .indented-list {
+    padding-left: 20px;
+    font-size: 90%;
+  }
+
+  /* --- BLOCKQUOTE STYLE --- */
+  /* Used for pull quotes within the text. Syntax: > Your quote here */
+  blockquote {
+    font-family: Garamond, serif !important;
+    font-size: 1.4rem !important;
+    font-style: italic !important;
+    border-left: 4px solid #1C2944 !important;
+    padding-left: 1em !important;
+    margin-left: 2em !important;
+    color: #444 !important;
+    line-height: 1.25 !important;
+  }
+
+  /* --- CIRCLE IMAGE PAIR --- */
+  /* Used to display two circular images side by side. See HTML block below for usage. */
+  .circle-pair {
+    text-align: center;
+    margin: 2em 0;
+  }
+
+  .circle-pair .circle {
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    margin: 0 15px;
+    border-radius: 50%;
+    overflow: hidden;
+    vertical-align: top;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  }
+
+  .circle-pair .circle img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+  /* --- BANNER IMAGE WITH QUOTE OVERLAY --- */
+  /* Used for a wide image with a quote overlaid at the bottom. See HTML block below for usage. */
+  .crop-bottom-half {
+    width: 100%;
+    max-width: 100%;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+    margin: 20px auto;
+    border-radius: 8px;
+  }
+
+  .crop-bottom-half img {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+
+  .crop-bottom-half .image-text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+    font-family: Georgia, serif;
+    font-style: italic;
+    font-size: 1.2rem;
+    font-weight: normal;
+    text-align: center;
+    padding: 10px 50px;
+    box-sizing: border-box;
+  }
+
+  .crop-bottom-half .quote {
+    font-family: Georgia, serif;
+    font-style: italic;
+    font-size: 1.4rem;
+    line-height: 1.4;
+    display: block;
+  }
+
+  .crop-bottom-half .attribution {
+    font-family: "Roboto", sans-serif;
+    font-size: 0.9rem;
+    font-style: normal;
+    font-weight: 300;
+    margin-top: 6px;
+    display: block;
+  }
+
+</style>
+```
+
+------------------------------------------------------------------------
+
+# **<!-- SECTION 1 TITLE (e.g. 1. Defining Mental Health) -->**
+
+## **<!-- SUBSECTION TITLE (e.g. 1.1 What is Mental Health?) -->**
+
+<!-- ADD BODY TEXT HERE -->
+
+<!-- OPTIONAL: Add a blockquote using > syntax, e.g.: -->
+<!-- > Your quote text here. -->
+
+<!-- OPTIONAL: Two circular images side by side — replace src paths and alt text -->
+```{=html}
+<div class="circle-pair">
+  <div class="circle">
+    <img src="images/<!-- IMAGE FILENAME e.g. module2-img1.jpeg -->" alt="<!-- IMAGE DESCRIPTION -->" />
+  </div>
+  <div class="circle">
+    <img src="images/<!-- IMAGE FILENAME e.g. module2-img2.jpeg -->" alt="<!-- IMAGE DESCRIPTION -->" />
+  </div>
+</div>
+```
+
+------------------------------------------------------------------------
+
+## **<!-- SUBSECTION TITLE (e.g. 1.2 Next Subsection) -->**
+
+<!-- ADD BODY TEXT HERE -->
+
+<!-- OPTIONAL: Bullet list, e.g.: -->
+<!-- - **Term**: Description -->
+
+------------------------------------------------------------------------
+
+## **<!-- SUBSECTION TITLE (e.g. 1.3 Next Subsection) -->**
+
+<!-- ADD BODY TEXT HERE -->
+
+<!-- OPTIONAL: Callout box — displays as a coloured tip box -->
+<!-- ::: callout-tip -->
+<!-- Your callout text here. -->
+<!-- ::: -->
+
+<!-- OPTIONAL: Banner image with quote overlay — replace src, quote, and attribution -->
+```{=html}
+<div class="crop-bottom-half">
+  <img src="images/<!-- IMAGE FILENAME e.g. module2-img3.jpeg -->" alt="<!-- IMAGE DESCRIPTION -->">
+  <div class="image-text">
+    <span class="quote">"<!-- QUOTE TEXT HERE -->"</span>
+    <span class="attribution"><!-- ATTRIBUTION e.g. – Canadian Mental Health Association --></span>
+  </div>
+</div>
+```
+
+------------------------------------------------------------------------
+
+## **<!-- SUBSECTION TITLE (e.g. 1.4 Next Subsection) -->**
+
+<!-- ADD BODY TEXT HERE -->
+
+------------------------------------------------------------------------
+
+## **<!-- SECTION SUMMARY TITLE (e.g. 1.5 Section Summary) -->**
+
+<!-- ADD SUMMARY BULLET POINTS HERE, e.g.: -->
+<!-- - Key takeaway one. -->
+<!-- - Key takeaway two. -->
+
+------------------------------------------------------------------------
+
+# **<!-- SECTION 2 TITLE (e.g. 2. Next Major Topic) -->**
+
+## **<!-- SUBSECTION TITLE -->**
+
+<!-- ADD BODY TEXT HERE -->

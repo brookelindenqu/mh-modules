@@ -1,0 +1,197 @@
+---
+title: "Mental Health Module Template"
+format:
+  html:
+    theme: cosmo
+    toc: true
+    css: styles.css
+---
+
+# Module: Template Module
+
+Welcome to this module on understanding and managing stress, and building resilience as a student.
+
+::: callout-note
+### Learning Objectives
+
+-   Objective 1
+-   Objective 2
+-   Objective 3
+:::
+
+------------------------------------------------------------------------
+
+## What is Stress?
+
+Stress is the body's response to any demand or challenge. While some stress can be motivating, chronic or overwhelming stress can negatively affect your well-being.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/YOUR_VIDEO_ID" frameborder="0" allowfullscreen>
+
+</iframe>
+
+::: callout-tip
+**Reflect:** Think of a recent stressful experience. How did your body react? What thoughts did you have?
+:::
+
+------------------------------------------------------------------------
+
+## Understanding Resilience
+
+Resilience is the ability to bounce back from challenges. It involves adaptability, emotional strength, and support systems.
+
+![Resilience infographic](images/resilience.png)
+
+Accordian Drop-down Test
+
+<details>
+
+<summary>Click to expand</summary>
+
+Here’s the hidden content that shows when you click.
+
+You can add **markdown** formatting, images, lists, etc.
+
+</details>
+
+Flip Card Test
+
+```{=html}
+<style>
+.flip-card-container {
+  display: flex;
+  gap: 15px; 
+  justify-content: center;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
+  max-width: 100vw;
+  padding: 0px 30px;
+  box-sizing: border-box;
+}
+
+.flip-card {
+  background-color: transparent;
+  width: 200px;
+  height: 200px;
+  perspective: 1000px;
+  flex-shrink: 0; 
+  cursor: pointer;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  cursor: pointer;
+}
+
+.flip-card-inner.flipped {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.flip-card-front {
+  background-color: #f0f0f0;
+  color: black;
+}
+
+.flip-card-back {
+  background-color: #2980b9;
+  color: white;
+  transform: rotateY(180deg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+</style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const cards = document.querySelectorAll('.flip-card');
+  cards.forEach(card => {
+    card.addEventListener('click', () => {
+      const inner = card.querySelector('.flip-card-inner');
+      inner.classList.toggle('flipped');
+    });
+  });
+});
+</script>
+
+<div class="flip-card-container"> 
+<div class="flip-card"> 
+<div class="flip-card-inner"> 
+<div class="flip-card-front"> 
+<img src="path/to/image1.png" alt="Image 1" style="width:100%; height:100%; object-fit: cover; border-radius: 8px;"> 
+</div> 
+
+<div class="flip-card-back"> Back content for card 1 </div> 
+</div> </div> <div class="flip-card"> 
+<div class="flip-card-inner"> 
+<div class="flip-card-front"> 
+<img src="path/to/image2.png" alt="Image 2" style="width:100%; height:100%; object-fit: cover; border-radius: 8px;"> 
+</div> 
+
+<div class="flip-card-back"> Back content for card 2 </div> 
+</div> 
+
+</div> 
+
+<div class="flip-card"> 
+<div class="flip-card-inner"> 
+<div class="flip-card-front"> 
+<img src="path/to/image3.png" alt="Image 3" style="width:100%; height:100%; object-fit: cover; border-radius: 8px;"> 
+</div> 
+
+<div class="flip-card-back"> Back content for card 3 </div> 
+</div> 
+</div> 
+</div> 
+```
+:::
+::::
+
+::: callout-warning
+**Try This:** List 3 personal strengths that help you manage stress.
+:::
+
+------------------------------------------------------------------------
+
+## Quick Check: Quiz
+
+::: quiz
+### Which of the following is a key trait of resilience?
+
+1.  Avoiding all stress\
+2.  Being unaffected by emotions\
+3.  Adapting to challenges ✓
+:::
+
+------------------------------------------------------------------------
+
+## Summary
+
+In this module, you learned: - The definition and effects of stress - The concept of resilience and how it supports well-being - Tips and reflections to help strengthen your own resilience
+
+::: callout-note
+**Next Module:** [Help-Seeking and Supports →](module-2.qmd)
+:::
+
+------------------------------------------------------------------------
+
+## Navigation
+
+[← Back to Home](index.qmd) \| [Next Module →](module-2.qmd)
