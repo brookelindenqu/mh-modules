@@ -7,8 +7,9 @@ website:
   navbar:
     background: "#1C2944"
     foreground: white
-    logo: logo-white.png
+    logo: logo-transparent-white-text.png
     logo-alt: "SMHN Logo"
+    logo-href: "https://www.studentmentalhealthnetwork.ca"
   page-navigation: true
   search: true
 

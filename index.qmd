@@ -1,5 +1,5 @@
 ---
-title: "Mental Health Module Library"
+title: "Mental Health Module Series"
 format:
   html:
     theme: cosmo
@@ -8,13 +8,25 @@ format:
 
 ```{=html}
 <style>
-  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&family=Open+Sans:wght@600;700&display=swap');
-
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&family=Open+Sans:wght@600;700&family=Poppins:wght@400&display=swap');
+ 
   body { font-family: 'Roboto', sans-serif; }
   h1, h2, h3 { font-family: 'Open Sans', sans-serif; }
 
+.navbar {
+  display: none !important;
+}
+
+body {
+  padding-top: 0 !important;
+}
+
 .quarto-title h1.title {
   display: none;
+}
+
+.quarto-title {
+  display: none !important;
 }
 
 .page-header {
@@ -226,8 +238,38 @@ format:
 }
 </style>
 
+<div style="text-align: center; padding: 1.5em 1em 0 1em; font-family: 'Poppins', sans-serif; border-bottom: 1px solid #eee; margin-bottom: 1.5em;">
+  <div style="font-size: 1.6rem; font-weight: 400; letter-spacing: 0.15em; color: #555; text-transform: uppercase;">
+    Student Mental Health Network
+  </div>
+  <div style="font-size: 0.65rem; letter-spacing: 0.15em; text-transform: uppercase; color: #888; margin-top: 0.3em;">
+    Powered by <a href="https://www.lindenresearch.weebly.com" target="_blank" style="color: #888; text-decoration: underline;">The Linden Lab</a>
+  </div>
+  <nav style="display: flex; align-items: center; justify-content: center; gap: 0; margin-top: 1.2em; padding-bottom: 0;">
+    <div style="flex: 1; height: 1px; background: #ddd; max-width: 120px;"></div>
+    <div style="display: flex; gap: 0.2em; align-items: center; font-family: 'Poppins', sans-serif; color: #888;">
+      <a href="https://www.studentmentalhealthnetwork.ca/about.html" target="_blank" style="font-size: 1.0rem; font-weight: 400; letter-spacing: 0.12em; text-transform: uppercase; color: #888; text-decoration: none; padding: 6px 16px;">About</a>
+      <a href="https://www.studentmentalhealthnetwork.ca/learn.html" target="_blank" style="font-size: 1.0rem; font-weight: 400; letter-spacing: 0.12em; text-transform: uppercase; color: #888; text-decoration: none; padding: 6px 16px;">Learn</a>
+      <a href="https://www.studentmentalhealthnetwork.ca/connect.html" target="_blank" style="font-size: 1.0rem; font-weight: 400; letter-spacing: 0.12em; text-transform: uppercase; color: #888; text-decoration: none; padding: 6px 16px;">Connect</a>
+      <a href="https://www.studentmentalhealthnetwork.ca/access.html" target="_blank" style="font-size: 1.0rem; font-weight: 400; letter-spacing: 0.12em; text-transform: uppercase; color: #888; text-decoration: none; padding: 6px 16px;">Access</a>
+      <a href="https://www.studentmentalhealthnetwork.ca/contact.html" target="_blank" style="font-size: 1.0rem; font-weight: 400; letter-spacing: 0.12em; text-transform: uppercase; color: #888; text-decoration: none; padding: 6px 16px;">Contact</a>
+    </div>
+    <div style="flex: 1; height: 1px; background: #ddd; max-width: 120px;"></div>
+  </nav>
+</div>
+
 <div class="page-header">
-  <h1>Mental Health Module Library</h1>
+
+<div style="width: 100vw; position: relative; left: 50%; right: 50%; margin-left: -50vw; margin-right: -50vw; margin-bottom: 2em; height: 500px; overflow: hidden;">
+  <img src="moduleseriesbanner-2026.png" alt="SMHN Module Series" style="width: 100%; height: auto; display: block; object-fit: cover; object-position: center;"/>
+  </div>
+
+<div>
+  <p>The Network's Mental Health Module Library includes a collection of evidence-informed learning modules designed to support mental health literacy among post-secondary students across Canada. All module content has been compiled "for students, by students," with relevant Subject Matter Experts providing a thorough review for validity and psychological safety.</p>
+</div>
+
+<div style="display: flex; justify-content: space-between; align-items: center; gap: 24em; margin: 2em 0 1em 0;">
+  <div class="section-label" style="margin: 0;">Available Modules</div>
   <div class="lang-toggle">
     <span class="lang-label">English</span>
     <a class="toggle-track" href="index-fr.html">
@@ -236,12 +278,6 @@ format:
     <a class="lang-label muted" href="index-fr.html">Français</a>
   </div>
 </div>
-
-<div class="hero">
-  <p>The Network's Mental Health Module Library includes a collection of evidence-informed learning modules designed to support mental health literacy among post-secondary students across Canada. All module content has been compiled "for students, by students," with relevant Subject Matter Experts providing a thorough review for validity and psychological safety.</p>
-</div>
-
-<div class="section-label">Available Modules</div>
 
 <div class="filter-bar">
   <button class="filter-btn active" onclick="filterModules('all')">All</button>
@@ -291,4 +327,5 @@ function filterModules(category) {
   });
 }
 </script>
+
 ```

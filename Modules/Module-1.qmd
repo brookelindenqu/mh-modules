@@ -140,10 +140,39 @@ blockquote {
   line-height: 1.5;
 }
 
+.home-btn {
+  display: inline-block;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: white;
+  text-decoration: none;
+  background-color: #1C2944;
+  border: 2px solid #1C2944;
+  border-radius: 20px;
+  padding: 4px 12px;
+  margin-bottom: 0.5em;
+  transition: all 0.2s ease;
+  display: inline-block;
+}
+
+.home-btn:hover {
+  background-color: white;
+  color: #1C2944;
+}
 </style>
+
 ```
 
-------------------------------------------------------------------------
+```{=html}
+
+<div style="border-bottom: 3px solid #243559; padding-bottom: 0.5em; margin-bottom: 1em;">
+  <a class="home-btn" href="../index.html">← Module Library Home</a>
+</div>
+```
+
 
 # **1. Defining Mental Health and Mental Illness**
 
@@ -189,7 +218,7 @@ In Canada, the following professionals can diagnose mental illness:
 
 ## **1.3 When are mental illnesses diagnosed?**
 
-The timing of developing a mental illness varies based on a number of factors (including biopsychosocial risk factors and the mental illness in question), but research suggests that 75% of mental illnesses occur before the age of 25 ([Kessler et al. 2007](https://pubmed.ncbi.nlm.nih.gov/17551351/)). 
+The timing of developing a mental illness varies based on a number of factors (including biopsychosocial risk factors and the mental illness in question), but research suggests that 75% of mental illnesses occur before the age of 25 ([Kessler et al. 2007](https://pubmed.ncbi.nlm.nih.gov/17551351/)).
 
 Given that the average age for post-secondary students ranges from 18-25 - a period also referred to as **emerging adulthood** ([Arnett 2000](http://jeffreyarnett.com/ARNETT_Emerging_Adulthood_theory.pdf)) - students are considered to be a particularly "at risk" group for mental health deterioration. Notably, post-secondary institutions are reporting that more incoming undergraduate students are arriving at school with pre-existing mental illnesses. In fact, recent research suggests that rates of mental illnesses in the post-secondary population are not significantly different from those found among the general Canadian population ([Wiens et al. 2020](https://journals.sagepub.com/doi/full/10.1177/0706743719874178)).
 
@@ -644,15 +673,433 @@ Physical and mental health are interdependent on one another. There are a multit
 
 ------------------------------------------------------------------------
 
+# **4. Mental Health Care**
+
+## **4.1 Mental Health Care in Canada**
+
+Healthcare in Canada is governed by the Canada Health Act, with the goals of promoting and restoring the mental and physical health of Canadians and to ensure reasonable access to health services, regardless of factors like income, education, or culture. Provinces and territories are provided with funding from the federal government to provide coverage for health services deemed to be "medically necessary" ([Canadian Civil Liberties Association 2017](https://ccla.org/get-informed/talk-rights/the-state-of-mental-health-in-canada/)).
+
+Unfortunately, the majority of mental health services are not considered "medically necessary" - psychological services are paid for out-of-pocket or covered by insurance, producing substantial barriers for many Canadians who are in need of mental health care. We'll take a closer look at barriers to help-seeking in the next section.  While mental illness accounts for approximately 10% of the burden of disease in Ontario, it receives just 7% of health care dollars ([CAMH, 2022](https://www.camh.ca/en/driving-change/the-crisis-is-real#:~:text=One%2Dthird%20of%20Canadians%20aged,access%20to%20specialized%20treatment%20services)). 
+
+Since its inception in 2007, the Mental Health Commission of Canada has taken strides to improve mental health care in Canada, releasing ([Changing Directions, Changing Lives](https://mentalhealthcommission.ca/wp-content/uploads/2021/05/MHStrategy_Strategy_ENG.pdf)) in 2012 - Canada's first mental health strategy. The strategy highlights a number of strategic priorities, including promotion and prevention, recovery and rights, access to services, disparities and diversity, Indigenous mental health, and leadership and collaboration. 
+
+> Mental health has long been recognized as a fundamental aspect of one’s health, however under our current health regime, the majority of mental health services do not meet the eligibility requirement of “medically necessary.”
+
+--------------
+
+## **4.2 Mental Health Care Providers**
+
+Earlier in this module, we explored three mental health care providers who can formally diagnose mental illnesses: **family doctors, psychologists, and psychiatrists.** A family doctor can provide you with a referral to a psychiatrist, and may be able to recommend a psychologist to you (though a referral is not required).
+
+Each of these care providers is qualified to offer different types of treatment. Family doctors can prescribe medication, but do not typically provide psychotherapy. Psychologists specialize in providing psychotherapy, but cannot prescribe medication. Psychiatrists can prescribe medication and offer psychotherapy. It's common to work with more than one care provider on your mental health. 
+
+It's important to note that not everyone struggling with mental health deterioration will require medication and/or psychotherapy in order to recovery. In fact, many people - and especially those who have not yet hit the threshold for a mental illness diagnosis - may benefit from lower-intensity options. 
+
+:::callout-note
+Note that post-secondary students can access both physical and mental health services from their Student Wellness Services (SWS) on campus. You don't need to wait until the next time you're home to see your family doctor.  The practitioners at your SWS will be happy to work with your family doctor back home to put together a treatment plan that works best for you.
+:::
 
 ```{=html}
-<div class="circle-pair">
-  <div class="circle">
-    <img src="images/module1-img7.jpg" alt="Two students in graduation robes" />
+
+<div class="crop-bottom-half">
+<img src="images/module1-img12.jpg" alt="A young adult sits across from a mental health care professional in treatment">
+  <div class="image-text">
+    <span class="quote">"Not everyone requires medication and/or therapy to recover from a mental illness or languishing mental health. Some may excel with just one or the other, while others may benefit from even lower intensity care."</span>
   </div>
-  <div class="circle">
-    <img src="images/module1-img8.jpg" alt="Two students walking together" />
+</div>
+```
+
+------------------
+
+## **4.3 The Mental Health Service Continuum**
+
+The Mental Health Service Continuum, shown below, describes the different levels of mental health care. As you can see, there is a relationship shown between the **level of need** (e.g., the severity of one's mental health deterioration or mental illness) and the **intensity of care** provided. 
+
+The Mental Health Services Continuum is comprehensive, in that it shows services ranging from upstream to downstream.  **Upstream services** are those that aim to intervene prior to the development of symptoms, while **downstream services** are intended for intervention following the development of symptoms (and diagnosis). 
+
+Ordered from upstream to downstream, the levels of mental health services  described below include: mental health promotion, mental illness prevention, early detection, treatment, and recovery. 
+
+```{=html}
+<style>
+  .mhsc-wrap { font-family: 'Open Sans', sans-serif; max-width: 620px; margin: 0 auto; padding: 1rem 0; }
+  .mhsc-region { cursor: pointer; transition: opacity 0.2s; }
+  .mhsc-region:hover { opacity: 0.85; }
+  .mhsc-region.active { opacity: 1; }
+  .mhsc-dot { cursor: pointer; }
+  .mhsc-dot circle { transition: r 0.15s ease; }
+  .mhsc-dot:hover circle { r: 10; }
+  .mhsc-popup { display: none; margin-top: 1em; background: #f0f2f5; border-left: 3px solid #1C2944; border-radius: 0 8px 8px 0; padding: 0.9em 1.1em; }
+  .mhsc-popup.visible { display: block; }
+  .mhsc-popup-title { font-size: 0.88rem; font-weight: 700; color: #1C2944; margin: 0 0 0.3em 0; }
+  .mhsc-popup-body { font-size: 0.8rem; line-height: 1.6; color: #444; margin: 0; }
+</style>
+
+<div class="mhsc-wrap">
+  <svg viewBox="0 0 520 390" xmlns="http://www.w3.org/2000/svg">
+
+    <line x1="60" y1="30" x2="60" y2="320" stroke="#1C2944" stroke-width="2"/>
+    <polygon points="60,22 55,36 65,36" fill="#1C2944"/>
+    <line x1="60" y1="320" x2="490" y2="320" stroke="#1C2944" stroke-width="2"/>
+    <polygon points="498,320 484,315 484,325" fill="#1C2944"/>
+
+    <text transform="rotate(-90, 16, 185)" x="16" y="185" text-anchor="middle" font-size="10" font-weight="700" letter-spacing="1" fill="#1C2944">INTENSITY OF CARE</text>
+    <text x="275" y="360" text-anchor="middle" font-size="10" font-weight="700" letter-spacing="1" fill="#1C2944">LEVEL OF NEED</text>
+
+    <text x="50" y="315" text-anchor="end" font-size="10" fill="#888">Low</text>
+    <text x="50" y="65" text-anchor="end" font-size="10" fill="#888">High</text>
+    <text x="70" y="336" font-size="10" fill="#888">Low</text>
+    <text x="420" y="336" font-size="10" fill="#888">High</text>
+
+    <rect x="80" y="30" width="340" height="22" rx="11" fill="#3A5880"/>
+    <text x="190" y="45" text-anchor="middle" font-size="8" font-weight="700" fill="white" letter-spacing="1">← UPSTREAM</text>
+    <text x="330" y="45" text-anchor="middle" font-size="8" font-weight="700" fill="white" letter-spacing="1">DOWNSTREAM →</text>
+
+    <polygon class="mhsc-region" data-index="0"
+      points="60,295 238,295 238,190 60,295" fill="#A8C8E8"/>
+    <polygon class="mhsc-region" data-index="1"
+      points="238,295 328,295 328,138 238,190" fill="#7A9DC8"/>
+    <polygon class="mhsc-region" data-index="2"
+      points="328,295 400,295 400,95 328,138" fill="#6B7AB8"/>
+    <polygon class="mhsc-region" data-index="3"
+      points="400,295 460,295 460,60 400,95" fill="#7B5BAF"/>
+
+    <rect class="mhsc-region" data-index="4"
+      x="60" y="295" width="400" height="25" fill="#1C2944" opacity="0.6"/>
+    <text x="260" y="312" text-anchor="middle" font-size="9" font-weight="700" fill="white" pointer-events="none">RECOVERY</text>
+
+    <text x="149" y="226" text-anchor="middle" font-size="9" font-weight="700" fill="#1C2944" pointer-events="none">PROMOTION</text>
+    <g class="mhsc-dot" data-index="0">
+      <circle cx="149" cy="243" r="7" fill="#1C2944"/>
+    </g>
+
+    <text x="283" y="147" text-anchor="middle" font-size="9" font-weight="700" fill="#1C2944" pointer-events="none">PREVENTION</text>
+    <g class="mhsc-dot" data-index="1">
+      <circle cx="283" cy="164" r="7" fill="#1C2944"/>
+    </g>
+
+    <text x="364" y="94" text-anchor="middle" font-size="9" font-weight="700" fill="#1C2944" pointer-events="none">EARLY</text>
+    <text x="364" y="105" text-anchor="middle" font-size="9" font-weight="700" fill="#1C2944" pointer-events="none">DETECTION</text>
+    <g class="mhsc-dot" data-index="2">
+      <circle cx="364" cy="116" r="7" fill="#1C2944"/>
+    </g>
+
+    <text x="430" y="61" text-anchor="middle" font-size="9" font-weight="700" fill="#1C2944" pointer-events="none">TREATMENT</text>
+    <g class="mhsc-dot" data-index="3">
+      <circle cx="430" cy="78" r="7" fill="#1C2944"/>
+    </g>
+
+  </svg>
+
+  <div class="mhsc-popup" id="mhsc-popup">
+    <p class="mhsc-popup-title" id="mhsc-title"></p>
+    <p class="mhsc-popup-body" id="mhsc-body"></p>
   </div>
 </div>
 
+<script>
+const nodes = {
+  0: { title: "Mental Health Promotion", body: "Mental health promotion is intended for everyone, regardless of level of mental health need. Mental health promotion aims to bolster resilience and provide individuals with a toolkit of resources to turn to when they experience mental health deterioration, prior to the development of symptoms of poor mental health." },
+  1: { title: "Mental Illness Prevention", body: "Also referred to as \u201cprimary prevention\u201d, mental illness prevention aims to reduce risk for mental illness prior to the development of symptoms." },
+  2: { title: "Early Detection", body: "Also referred to as \u201csecondary prevention\u201d, early detection aims to catch mental illnesses early, soon after the development of symptoms. A person may be experiencing languishing mental health to the point where they are on the edge of a mental illness diagnosis, but may not yet have reached a clinical threshold. For this reason, early detection straddles the line between upstream and downstream services." },
+  3: { title: "Treatment", body: "The first downstream service, treatment is typically provided after the onset of mental illness and a formal diagnosis. Treatment can span psychotherapy, pharmacotherapy (medication), or both. These formal treatments can also be delivered hand in hand with lower-intensity, mental health promotion/mental illness prevention activities, too." },
+  4: { title: "Recovery", body: "Recovery is a state in which an individual lives comfortably with a well-managed mental illness, and experiences good overall mental health. Recovery is more formally considered to be downstream given that it occurs long after the development of symptoms, but it encapsulates the entire continuum of services - continued mental health promotion, prevention and early detection of relapse, and continuous treatment/maintenance of condition." }
+};
+
+function showRegion(idx) {
+  document.querySelectorAll('.mhsc-region').forEach(r => r.classList.remove('active'));
+  document.querySelectorAll('.mhsc-region[data-index="' + idx + '"]').forEach(r => r.classList.add('active'));
+  document.getElementById('mhsc-title').textContent = nodes[idx].title;
+  document.getElementById('mhsc-body').textContent = nodes[idx].body;
+  document.getElementById('mhsc-popup').classList.add('visible');
+}
+
+document.addEventListener('DOMContentLoaded', function () {
+  document.querySelectorAll('.mhsc-region, .mhsc-dot').forEach(function(el) {
+    el.addEventListener('click', function() {
+      var idx = parseInt(el.getAttribute('data-index'));
+      if (!isNaN(idx)) showRegion(idx);
+    });
+  });
+});
+</script>
 ```
+
+In Canada, we tend towards the **"medical model"** or **"treatment model"** when it comes to mental health - in other words, we focus on treating the symptoms of mental illness or poor mental health, and not the cause. Along with other experts in the field, the Mental Health Commission of Canada recommends that we work towards adopting a more comprehensive, holistic view of mental health care, placing emphasis on upstream services (i.e.,  mental health promotion and mental illness prevention). In doing so, we can work towards preventing the development of mental illness to begin with, thereby alleviating bottlenecking at the treatment level, which produces long wait times and other accessibility challenges.
+
+-----------
+
+```{=html}
+<div class="section-summary">
+  <h3>4.4 Section Summary</h3>
+  <ul>
+    <li>Health care in Canada is covered by the Canada Health Act, though many mental health related services do not qualify for funding under the current definition of "medically necessary".</li>
+    <li>Not everyone struggling with mental health deterioration may require formal medical treatment - there are many different types of mental health care along the service continuum.</li>
+    <li>Mental health promotion and mental illness prevention are upstream interventions that occur before the development of symptoms of mental illness.</li>
+    <li>Early detection straddles upstream and downstream, aiming to intervene as soon as possible after the development of initial symptoms, while treatment and recovery are more firmly downstream services that aim to treat and manage mental illness.</li>
+  </ul>
+</div>
+```
+
+----------
+
+# **5. Barriers to Help-Seeking**
+
+## **5.1 Reaching out for Help**
+
+So far in this module, we've learned that mental health problems are widespread, affecting a large proportion of Canadians. However, national data suggests that a large proportion of Canadians with a demonstrated need for mental health care do not reach out for help or treatment. Similar patterns of low levels of help seeking have been observed among Canadian post-secondary students. But why? 
+
+When you're experiencing mental health deterioration, it can be really difficult to reach out for help. The longer you wait to reach out for help, the more severe your symptoms can become, making even more difficult to contact your doctor, or even get out of bed.  
+
+```{=html}
+
+<div class="crop-bottom-half">
+<img src="images/module1-img13.jpg" alt="Two hands reaching for each other">
+  <div class="image-text">
+    <span class="quote">"Of the 2.3 million Canadians who reported unmet or partially met mental healthcare needs in 2018, the most frequently reported barriers were not knowing where to get help, being too busy, or not being able to pay for services (Moroz et al. 2020)."</span>
+  </div>
+</div>
+```
+
+---------
+
+## **5.2 Help-Seeking by the Numbers**
+
+Data from the Canadian Community Health Survey ([Statistics Canada, 2019](https://www150.statcan.gc.ca/n1/pub/82-625-x/2019001/article/00011-eng.htm)) demonstrates the following:
+
+1. Almost one-in-five Canadians needed mental health care in 2018, and half of them felt that their needs were fully met.
+
+2. In terms of the type of care needed, the need for medication was the most likely to be met (85.4%) while the need for counselling was the most likely to be unmet (34.1%).
+
+3. The most frequently reported reasons for having unmet or partially met needs were related to not knowing where to go, being too busy or not being able to afford to pay.
+
+----------
+
+## **5.3 Barriers to Help Seeking**
+
+Three of the most common barriers to seeking help for mental health related issues in Canada are **accessibility, affordability, and stigma**. Click through the grid below to learn a bit more about each. 
+
+```{=html}
+<style>
+  .fc-wrap { display: flex; gap: 1.2em; flex-wrap: wrap; justify-content: center; max-width: 760px; margin: 0 auto; padding: 1rem 0; font-family: 'Open Sans', sans-serif; }
+  .fc-card { width: 220px; height: 220px; perspective: 1000px; cursor: pointer; }
+  .fc-inner { position: relative; width: 100%; height: 100%; transform-style: preserve-3d; transition: transform 0.55s ease; border-radius: 12px; }
+  .fc-card.flipped .fc-inner { transform: rotateY(180deg); }
+  .fc-front, .fc-back { position: absolute; width: 100%; height: 100%; backface-visibility: hidden; border-radius: 12px; overflow: hidden; }
+  .fc-front { background: #1C2944; }
+  .fc-front img { width: 100%; height: 70%; object-fit: cover; display: block; }
+  .fc-front-label { color: white; font-size: 0.78rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; padding: 0.8em 1em; text-align: center; }
+  .fc-back { background: #f0f2f5; border: 2px solid #1C2944; transform: rotateY(180deg); display: flex; flex-direction: column; justify-content: flex-start; padding: 1.2em; box-sizing: border-box; overflow-y: auto;}
+  .fc-back-title { font-size: 0.78rem; font-weight: 700; color: #1C2944; margin: 0 0 0.5em 0; text-transform: uppercase; letter-spacing: 0.05em;}
+  .fc-back-body { font-size: 0.78rem; line-height: 1.6; color: #444; margin: 0; }
+  .fc-hint { text-align: center; font-size: 0.7rem; color: #aaa; margin-top: 0.4em; }
+</style>
+
+<div class="fc-wrap">
+
+  <div>
+    <div class="fc-card" id="fc-card-0">
+      <div class="fc-inner">
+        <div class="fc-front">
+          <img src="images/module1-img16.jpg" alt="Accessibility image"/>
+          <div class="fc-front-label">Accessibility</div>
+        </div>
+        <div class="fc-back">
+          <p class="fc-back-title">Accessibility</p>
+          <p class="fc-back-body"> Issues of accessibility can include a lack of available care providers, a lack of appropriate care providers (i.e., culturally competent care, care providers that specialize in a specific mental illness), lack of available transportation to services, and long wait times. </p>
+        </div>
+      </div>
+    </div>
+    <p class="fc-hint">click to flip</p>
+  </div>
+
+  <div>
+    <div class="fc-card" id="fc-card-1">
+      <div class="fc-inner">
+        <div class="fc-front">
+          <img src="images/module1-img15.jpg" alt="Affordability image"/>
+          <div class="fc-front-label">Affordability</div>
+        </div>
+        <div class="fc-back">
+          <p class="fc-back-title">Affordability</p>
+          <p class="fc-back-body">Mental health services are most often paid out-of-pocket or covered by insurance, presenting a substantial financial barrier to many, particularly the unemployed or those employed in positions that do not include benefit plans.</p>
+        </div>
+      </div>
+    </div>
+    <p class="fc-hint">click to flip</p>
+  </div>
+
+  <div>
+    <div class="fc-card" id="fc-card-2">
+      <div class="fc-inner">
+        <div class="fc-front">
+          <img src="images/module1-img14.jpg" alt="Stigma image"/>
+          <div class="fc-front-label">Stigma</div>
+        </div>
+        <div class="fc-back">
+          <p class="fc-back-title">Stigma</p>
+          <p class="fc-back-body">In the context of mental health, individuals with mental illnesses often fear that they will be stigmatized or discriminated against as a result. Self-stigma, where an individual internalizes this stigma, can also be a barrier to seeking help. </p>
+        </div>
+      </div>
+    </div>
+    <p class="fc-hint">click to flip</p>
+  </div>
+
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  document.querySelectorAll('.fc-card').forEach(function (card) {
+    card.addEventListener('click', function () {
+      card.classList.toggle('flipped');
+    });
+  });
+});
+</script>
+```
+
+While accessibility, affordability, and stigma are often talked about, they stem from much larger, structural barriers to reaching out for help. In the same way that social inequality and disadvantage lead to disparities in mental health outcomes, they also lead to inequities related  help-seeking. The barriers faced by individuals operate within three main levels: **the individual level, the community level, and the system level.** Explore the tabs below to learn more. 
+
+For an excellent, more detailed breakdown of the barriers to accessing mental health care in Canada, we recommend ([Moroz et al.'s 2020 paper](https://journals.sagepub.com/doi/full/10.1177/0840470420933911)).
+
+
+```{=html}
+<div style="font-family: 'Open Sans', sans-serif; border: 1px solid #dde3ec; border-radius: 12px; overflow: hidden; max-width: 680px; margin: 0 auto;">
+
+  <div style="display: flex; border-bottom: 1px solid #dde3ec;">
+    <button id="tbtn2-0" onclick="switchTab2(0)" style="flex:1; padding: 1.6em 1em; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; text-align: center; cursor: pointer; background: white; color: #1C2944; border: none; border-right: 1px solid #dde3ec; border-bottom: 3px solid #1C2944;">Individual-Level Barriers</button>
+    <button id="tbtn2-1" onclick="switchTab2(1)" style="flex:1; padding: 1.6em 1em; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; text-align: center; cursor: pointer; background: #f0f2f5; color: #999; border: none; border-right: 1px solid #dde3ec; border-bottom: 3px solid transparent;">Community-Level Barriers</button>
+    <button id="tbtn2-2" onclick="switchTab2(2)" style="flex:1; padding: 1.6em 1em; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; text-align: center; cursor: pointer; background: #f0f2f5; color: #999; border: none; border-bottom: 3px solid transparent;">System-Level Barriers</button>
+  </div>
+
+  <div id="tab2-0" style="display:block; padding: 2em 2.2em; background: white;">
+    <p style="font-size: 0.88rem; line-height: 1.7; color: #333; margin: 0 0 1em 0;"><strong style="color:#1C2944;">Individual-level barriers</strong> can include:</p>
+    <ul style="font-size: 0.88rem; line-height: 1.7; color: #333; padding-left: 1.4em; margin: 0;">
+      <li style="margin-bottom:0.5em;">Impact of the symptoms of mental illness</li>
+      <li style="margin-bottom:0.5em;">Side effects of medication</li>
+      <li style="margin-bottom:0.5em;">Episodic nature of mental illness</li>
+      <li style="margin-bottom:0.5em;">Educational disadvantage</li>
+      <li style="margin-bottom:0.5em;">Self-stigma</li>
+      <li>Logistical (i.e., financial burden, unaccommodating work schedule, transportation)</li>
+    </ul>
+  </div>
+
+  <div id="tab2-1" style="display:none; padding: 2em 2.2em; background: white;">
+    <p style="font-size: 0.88rem; line-height: 1.7; color: #333; margin: 0 0 1em 0;"><strong style="color:#1C2944;">Community-level barriers</strong> can include:</p>
+    <ul style="font-size: 0.88rem; line-height: 1.7; color: #333; padding-left: 1.4em; margin: 0;">
+      <li style="margin-bottom:0.5em;">Community and workplace stigma</li>
+      <li style="margin-bottom:0.5em;">Low expectations for healthcare professionals</li>
+      <li style="margin-bottom:0.5em;">Lack of culturally appropriate care</li>
+      <li>Language barriers (i.e., care not provided in language other than English)</li>
+    </ul>
+  </div>
+
+  <div id="tab2-2" style="display:none; padding: 2em 2.2em; background: white;">
+    <p style="font-size: 0.88rem; line-height: 1.7; color: #333; margin: 0 0 1em 0;"><strong style="color:#1C2944;">System-level barriers</strong> can include:</p>
+    <ul style="font-size: 0.88rem; line-height: 1.7; color: #333; padding-left: 1.4em; margin: 0;">
+      <li style="margin-bottom:0.5em;">Disincentives caused by the income support system</li>
+      <li style="margin-bottom:0.5em;">Lack of intersectoral collaboration between mental health and employment services</li>
+      <li style="margin-bottom:0.5em;">Lack of available services due to client saturation and/or limited practitioners</li>
+      <li>Lack of timely care (i.e., long wait times for care)</li>
+    </ul>
+  </div>
+
+</div>
+
+<script>
+function switchTab2(idx) {
+  for (let i = 0; i < 3; i++) {
+    const btn = document.getElementById('tbtn2-' + i);
+    const panel = document.getElementById('tab2-' + i);
+    if (i === idx) {
+      btn.style.background = 'white';
+      btn.style.color = '#1C2944';
+      btn.style.borderBottom = '3px solid #1C2944';
+      panel.style.display = 'block';
+    } else {
+      btn.style.background = '#f0f2f5';
+      btn.style.color = '#999';
+      btn.style.borderBottom = '3px solid transparent';
+      panel.style.display = 'none';
+    }
+  }
+}
+</script>
+```
+
+----------
+
+```{=html}
+<div class="section-summary">
+  <h3>5.4 Section Summary</h3>
+  <ul>
+    <li>Many Canadians with a demonstrated need for mental health care do not reach out for help or treatment, and the same can be said of post-secondary populations.</li>
+    <li>Three major barriers to help-seeking include accessibility, affordability, and stigma. Visible minorities tend to experience some of these barriers more than others. </li>
+    <li>Barriers to help-seeking operate at three main levels: individual (i.e., self-stigma, side effects of medication), community (i.e., lack of culturally appropriate care, language barriers, perceived stigma), and system (i.e., lack of available practitioners, lack of timely care).</li>
+  </ul>
+</div>
+```
+
+
+---------
+
+# **Module Contributors**
+
+```{=html}
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+
+<style>
+  .contrib-wrap { display: flex; gap: 1em; flex-wrap: wrap; max-width: 760px; margin: 0 auto; padding: 1rem 0; font-family: 'Open Sans', sans-serif; }
+  .contrib-card { background: #f5f6f8; border-radius: 10px; padding: 1.1em 1.3em; min-width: 200px; flex: 1 1 45%; box-sizing: border-box; }
+  .contrib-name { font-size: 0.85rem; font-weight: 700; color: #1C2944; margin: 0 0 0.2em 0; text-transform: uppercase; }
+  .contrib-program { font-size: 0.78rem; color: black; margin: 0; line-height: 1.5; }
+  .contrib-role { font-size: 0.78rem; font-style: italic; color: black; margin: 0.5em 0 0 0; }
+  .contrib-links { display: flex; gap: 0.6em; }
+  .contrib-link { color: #1C2944; font-size: 1.1rem; text-decoration: none; transition: opacity 0.2s; }
+  .contrib-link:hover { opacity: 0.6; }
+</style>
+
+<div class="contrib-wrap">
+
+  <div class="contrib-card">
+    <p class="contrib-name">Ainsley Johnstone</p>
+    <p class="contrib-program">Bachelor of Health Sciences Program<br>Queen's University</p>
+    <p class="contrib-role">Role: Content Developer</p>
+  </div>
+  
+<div class="contrib-card">
+    <p class="contrib-name">Jin Byun</p>
+    <p class="contrib-program">Bachelor of Health Sciences Program<br>Queen's University</p>
+    <p class="contrib-role">Role: Content Developer</p>
+  </div>
+  
+  <div class="contrib-card">
+  <div style="display:flex; align-items:center; justify-content: space-between; flex-wrap:wrap;">
+    <p class="contrib-name" style="margin:0;">Dr. Brooke Linden, PhD</p>
+    <div class="contrib-links" style="margin:0;">
+      <a class="contrib-link" href="https://scholar.google.com/citations?user=KCkz6iQAAAAJ&hl=en" title="Google Scholar" target="_blank"><i class="fa-solid fa-graduation-cap"></i></a>
+      <a class="contrib-link" href="https://bhsc.queensu.ca/current-students/faculty-directory/brooke-linden" title="University Profile" target="_blank"><i class="fa-solid fa-user"></i></a>
+    </div>
+  </div>
+    <p class="contrib-program">Health Sciences and Policy Research Institute<br>Queen's University</p>
+    <p class="contrib-role">Role: Subject Matter Expert</p>
+  </div>
+  
+  <div class="contrib-card">
+  <div style="display:flex; align-items:center; justify-content: space-between; flex-wrap:wrap;">
+    <p class="contrib-name">Dr. Heather Staurt, PhD</p>
+    <div class="contrib-links" style="margin:0;">
+      <a class="contrib-link" href="https://www.researchgate.net/profile/Heather-Stuart" title="Google Scholar" target="_blank"><i class="fa-solid fa-graduation-cap"></i></a>
+      <a class="contrib-link" href="https://phs.queensu.ca/faculty-research/heather-stuart" title="University Profile" target="_blank"><i class="fa-solid fa-user"></i></a>
+    </div>
+    <p class="contrib-program">Department of Health Sciences<br>Queen's University</p>
+    <p class="contrib-role">Role: Subject Matter Expert</p>
+  </div>
+  
+
+</div>
+```
+
+
+
+
+
