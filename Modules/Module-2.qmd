@@ -173,9 +173,9 @@ blockquote {
 </div>
 ```
 
-# **1. Defining Stigma**
+# **1. Introduction to Stigma**
 
-## **1.1 What is Stigma?**
+## **1.1 Defining Stigma**
 
 Stigma concerning mental health can be difficult to define. Watch this TedTalk to gain an introduction to what stigma is, and how we can reduce the stigma surrounding mental illness. 
 
@@ -208,15 +208,15 @@ There are many different types of stigma including public, or social, structural
 <div class="fc-wrap">
 
   <div>
-    <div class="fc-card" id="fc-card-0">
+    <div class="fc-card" onclick="this.classList.toggle('flipped')">
       <div class="fc-inner">
         <div class="fc-front">
-          <img src="images/module1-img16.jpg" alt="Public stigma image"/>
+          <img src="images/module2-img7.jpg" alt="Public stigma image"/>
           <div class="fc-front-label">Public Stigma</div>
         </div>
         <div class="fc-back">
           <p class="fc-back-title">Public Stigma</p>
-          <p class="fc-back-body"> The typical definition of stigma which highlights the views of the public towards mental health issues or a specific condition. </p>
+          <p class="fc-back-body">The typical definition of stigma which highlights the views of the public towards mental health issues or a specific condition.</p>
         </div>
       </div>
     </div>
@@ -224,10 +224,10 @@ There are many different types of stigma including public, or social, structural
   </div>
 
   <div>
-    <div class="fc-card" id="fc-card-1">
+    <div class="fc-card" onclick="this.classList.toggle('flipped')">
       <div class="fc-inner">
         <div class="fc-front">
-          <img src="images/module1-img15.jpg" alt="Self-stigma image"/>
+          <img src="images/module2-img8.jpg" alt="Self-stigma image"/>
           <div class="fc-front-label">Self-Stigma</div>
         </div>
         <div class="fc-back">
@@ -240,31 +240,31 @@ There are many different types of stigma including public, or social, structural
   </div>
 
   <div>
-    <div class="fc-card" id="fc-card-2">
+    <div class="fc-card" onclick="this.classList.toggle('flipped')">
       <div class="fc-inner">
         <div class="fc-front">
-          <img src="images/module1-img14.jpg" alt="Structural Stigma"/>
+          <img src="images/module2-img9.jpg" alt="Structural Stigma"/>
           <div class="fc-front-label">Structural Stigma</div>
         </div>
         <div class="fc-back">
           <p class="fc-back-title">Structural Stigma</p>
-          <p class="fc-back-body">In the context of mental illness, structural stigma refers to the rules, policies, and practices of social institutions that arbitrarily restrict the rights of, and opportunities for, people with mental illnesses. </p>
+          <p class="fc-back-body">In the context of mental illness, structural stigma refers to the rules, policies, and practices of social institutions that arbitrarily restrict the rights of, and opportunities for, people with mental illnesses.</p>
         </div>
       </div>
     </div>
     <p class="fc-hint">click to flip</p>
   </div>
-  
+
   <div>
-    <div class="fc-card" id="fc-card-3">
+    <div class="fc-card" onclick="this.classList.toggle('flipped')">
       <div class="fc-inner">
         <div class="fc-front">
-          <img src="images/module1-img14.jpg" alt="Stigma-by-Association image"/>
+          <img src="images/module2-img10.jpg" alt="Stigma-by-Association image"/>
           <div class="fc-front-label">Stigma-by-Association</div>
         </div>
         <div class="fc-back">
           <p class="fc-back-title">Stigma-by-Association</p>
-          <p class="fc-back-body">Involves stigma towards an individual based on their associations with stigmatized persons (i.e., someone experiencing a mental illness). </p>
+          <p class="fc-back-body">Involves stigma towards an individual based on their associations with stigmatized persons (i.e., someone experiencing a mental illness).</p>
         </div>
       </div>
     </div>
@@ -272,16 +272,6 @@ There are many different types of stigma including public, or social, structural
   </div>
 
 </div>
-
-<script>
-document.addEventListener('DOMContentLoaded', function () {
-  document.querySelectorAll('.fc-card').forEach(function (card) {
-    card.addEventListener('click', function () {
-      card.classList.toggle('flipped');
-    });
-  });
-});
-</script>
 ```
 
 -----------
@@ -406,3 +396,575 @@ Structural stigma occurs in the context of mental health when laws, policies, an
 **Finding a way**
 
 This type of stigma is especially harmful to those with lived experience of mental illness. It can result in inequitable access (including housing,  employment, etc.) and a lower quality of healthcare for these individuals, whether their concerns are related to physical health, mental health, and/or substance use.
+
+## **1.3. Consequences of Stigma**
+
+Stigma can have consequences at both the individual and societal levels, including but not limited to: 1) barriers to treatment, 2) unemployment, and 3) intersectional consequences.
+
+### **1.3.1 Barriers to Treatment**
+
+Despite recent advancements in reducing the stigma surrounding common mental health challenges like anxiety and depression, barriers to treatment remain. Below, we've organized these into barriers that individuals living with mental illness may face **before**, **during**, and **after** receiving a diagnosis and/or treatment.
+
+```{=html}
+<div style="font-family: 'Open Sans', sans-serif; border: 1px solid #dde3ec; border-radius: 12px; overflow: hidden; max-width: 680px; margin: 0 auto;">
+
+  <div style="display: flex; border-bottom: 1px solid #dde3ec;">
+    <button id="tbtn-0" onclick="switchTab(0)" style="flex:1; padding: 1.6em 1em; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; text-align: center; cursor: pointer; background: white; color: #1C2944; border: none; border-right: 1px solid #dde3ec; border-bottom: 3px solid #1C2944;">Before</button>
+    <button id="tbtn-1" onclick="switchTab(1)" style="flex:1; padding: 1.6em 1em; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; text-align: center; cursor: pointer; background: #f0f2f5; color: #999; border: none; border-right: 1px solid #dde3ec; border-bottom: 3px solid transparent;">During</button>
+    <button id="tbtn-2" onclick="switchTab(2)" style="flex:1; padding: 1.6em 1em; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; text-align: center; cursor: pointer; background: #f0f2f5; color: #999; border: none; border-bottom: 3px solid transparent;">After</button>
+  </div>
+
+  <div id="tab-0" style="display:block; padding: 2em 2.2em; background: white;">
+    <p style="font-size: 0.88rem; line-height: 1.7; color: #333; margin: 0 0 1em 0;"><style="color:#1C2944;"> The stigma surrounding mental illness is one reason that people may find it extremely difficult to reach out and seek treatment. Seeking treatment is a step which requires overcoming the daunting thought of condemning oneself to being labelled as “mentally ill”.</p>
+  </div>
+
+  <div id="tab-1" style="display:none; padding: 2em 2.2em; background: white;">
+    <p style="font-size: 0.88rem; line-height: 1.7; color: #333; margin: 0 0 1em 0;"><style="color:#1C2944;"> During treatment, patients may experience the stigma from mental health providers through their behaviour toward them. Patients are often treated by the mental health providers in ways that coincide with the stigma surrounding individuals with a mental illness (such as treating patients as if they cannot be responsible for their own lives and speaking to them differently than others without a mental illness).</p>
+  </div>
+
+  <div id="tab-2" style="display:none; padding: 2em 2.2em; background: white;">
+    <p style="font-size: 0.88rem; line-height: 1.7; color: #333; margin: 0 0 1em 0;"><style="color:#1C2944;"> Due to both external and self-stigma, individuals may hide that they are receiving treatment and reduce themselves from social interactions to avoid additional rejection. It is a struggle for people suffering from mental illness to continue their treatments as the stigma surrounding it often results in the desire to hide and withdraw from treatments altogether.</p>
+  </div>
+
+</div>
+
+<script>
+function switchTab(idx) {
+  for (let i = 0; i < 3; i++) {
+    const btn = document.getElementById('tbtn-' + i);
+    const panel = document.getElementById('tab-' + i);
+    if (i === idx) {
+      btn.style.background = 'white';
+      btn.style.color = '#1C2944';
+      btn.style.borderBottom = '3px solid #1C2944';
+      panel.style.display = 'block';
+    } else {
+      btn.style.background = '#f0f2f5';
+      btn.style.color = '#999';
+      btn.style.borderBottom = '3px solid transparent';
+      panel.style.display = 'none';
+    }
+  }
+}
+</script>
+
+```
+
+<br>
+**TedTalk: Stop the Stigma**
+
+In this video, Heather Sarkis speaks about why it is important to openly talk about mental health and mental illness. 
+
+{{< video https://www.youtube.com/watch?v=gy1iH_Gxn0Q >}}
+
+### **1.3.2 Unemployment**
+Most people with mental illnesses or mental health concerns are willing and able to work, but are often unable to due to factors outside their control. 
+
+In 2017, Statistics Canada found that of people surveyed with a mental health-related disability, less than half (46%) were employed. This demonstrates a significant unemployment rate for individuals living with a mental illness. Furthermore, more than half of the people surveyed who reported living with a mental illness believed they were disadvantaged in terms of employment due to the stigma surrounding their condition.
+
+The stigma of mental illness causing unemployment results in detrimental consequences. Employment provides not only income and financial stability but also daily routine and structure, social interactions, a sense of achievement and purpose, and a sense of identity.
+
+```{=html}
+
+<div class="crop-bottom-half">
+<img src="images/module2-img3.jpg" alt="A young black man in business attire sits at a desk gazing at a pile of papers, looking stressed.">
+  <div class="image-text">
+    <span class="quote">"The deprivation of benefits to employment alone are enough to cause suffering in previously mentally healthy individuals, and the suffering is magnified for those with a mental illness."</span>
+  </div>
+</div>
+```
+
+```{=html}
+<div style="display: flex; align-items: center; justify-content: space-between; gap: 2em; padding: 1.2em 1.5em; border-radius: 8px; background: white; border: 1px solid #eee; margin-bottom: 1em;">
+  <div>
+    <p style="font-weight: 700; margin: 0 0 0.3em 0; color: #1C2944;">Social Stigma and Unemployment - BMC Psychology</p>
+    <p style="margin: 0; font-size: 0.9rem; color: #444; line-height: 1.5;">Social stigma is an underestimated contributing factor to unemployment in people with mental illness or mental health issues: position paper and future directions.</p>
+  </div>
+  <a href="https://link.springer.com/article/10.1186/s40359-020-00399-0" target="_blank" style="flex-shrink: 0; background: #1C2944; color: white; font-weight: 700; font-size: 0.8rem; letter-spacing: 0.1em; text-transform: uppercase; padding: 14px 24px; border-radius: 30px; text-decoration: none; white-space: nowrap;">Learn More</a>
+</div>
+```
+
+### **1.3.3 Intersectional Consequences**
+
+Issues related to stigmatization are multiplied for people who are additionally stigmatized for other reasons, including race, gender, sexuality, and more. For more information on mental health and the stigma surrounding marginalized groups, we recommend you check out our module on **Mental Health and Intersectionality**.
+
+------------
+
+```{=html}
+<div class="section-summary">
+  <h3>1.4 Section Summary</h3>
+  <ul>
+    <li>Stigma is a major barrier to accessing mental health treatment for those who might be in need of it.</li>
+    <li>Stigma can take many forms, including public stigma, self-stigma, structural stigma, and stigma-by-association.</li>
+    <li>The consquences of stigma are far reaching, including stigma itself serving as a barrier to treatment / help-seeking, unemployment, as well as intersectional consequences for those who are additionally stignatied for other characteristics.</li>
+  </ul>
+</div>
+```
+
+------------
+
+# **2. Anti-Stigma Interventions**
+
+## **2.1 Stigmatizing Language **
+
+Sometimes individuals unknowingly contribute to the stigmatization of mental illness in subtle ways. Such ways may include using derogatory terms and/or phrases in conversation. There are many stigmatizing phrases and terms used that are often used without the realization that they are contributing to the stigma around mental illness.
+
+>The language we use every day matters, and it is important to be sensitive to those living with mental illnesses. Common stigmatizing words or phrases to avoid include: “That made me wanna kill myself”,  "I’m so bipolar”, or “My boss is really OCD.”
+
+Many common phrases - like those depicted above - demean mental illnesses and contribute to the overall stigmatization of them in society. Though they are common phrases and may appear harmless on the surface, their common use increases both public stigma in society as well as the self-stigma a person living with a mental illness may internalize. 
+
+A person with lived experience of mental illness may hear comments like these and reflect more negatively on themselves, or choose not to reach out to their support network as a result of feeling that people view their illness as a joke. These seemingly harmless words can "downplay" serious illnesses, and are insensitive to those who live with mental illnesses day in and day out. 
+
+```{=html}
+<div style="display: flex; align-items: center; justify-content: space-between; gap: 2em; padding: 1.2em 1.5em; border-radius: 8px; background: #f8f9fb; border: 1px solid #e8ecf3; margin-bottom: 1em;">
+  <div>
+    <p style="font-weight: 700; margin: 0 0 0.3em 0; color: #1C2944;">Combat Mental Health Stigma with Language Shifts</p>
+    <p style="margin: 0; font-size: 0.9rem; color: #444; line-height: 1.5;">This resource from the Mental Health Commission of Canada discusses ways to reduce stigma in our conversations.</p>
+  </div>
+  <a href="https://mentalhealthcommission.ca/catalyst/combat-mental-health-stigma-with-a-shift-towards-people-first-language/" target="_blank" style="flex-shrink: 0; background: #1C2944; color: white; font-weight: 700; font-size: 0.8rem; letter-spacing: 0.1em; text-transform: uppercase; padding: 14px 24px; border-radius: 30px; text-decoration: none; white-space: nowrap;">Learn More</a>
+</div>
+```
+
+## **2.2 Mental Health Literacy**
+
+For any hope to eradicate mental health stigma, steps must be taken to address stigma on several levels. This includes addressing it at the level of specific individuals, their social interactions with others, and on the large-scale level of society. One way to do this is by improving mental health literacy. 
+
+```{=html}
+
+<div class="crop-bottom-half">
+<img src="images/module2-img4.jpg" alt="Scrabble letters spell out 'MENTAL HEALTH'." style="bottom: -50px;">
+  <div class="image-text">
+    <span class="quote">Improving our mental health literacy helps us become responsible, effective, and successful in living full and healthy lives, as well as in supporting our friends and family.</span>
+  </div>
+</div>
+```
+
+
+**What is Mental Health Literacy?**
+
+Overall, the development of **mental health literacy (MHL)** came from **health literacy**, which was informed by the universal and concrete observation that low functional literacy in regard to any form of health is associated with endless poor health outcomes. MHL was originally conceptualized as “knowledge and beliefs about mental disorders which aid their recognition, management, or prevention” (Kutcher et al., 2016). It was then refined to include knowledge that benefits the mental health of others and it became important to also focus on the health promotion aspect of MHL. 
+
+Over years of evolving and refining definitions, this eventually led to the most recent definition of MHL: “understanding how to obtain and maintain positive mental health; understanding mental disorders and their treatments; decreasing stigma related to mental disorders; and, enhancing help-seeking efficacy” (Kutcher et al., 2016).
+
+```{=html}
+<div style="display: flex; align-items: center; justify-content: space-between; gap: 2em; padding: 1.2em 1.5em; border-radius: 8px; background: white; border: 1px solid #eee; margin-bottom: 1em;">
+  <div>
+    <p style="font-weight: 700; margin: 0 0 0.3em 0; color: #1C2944;">Learn more about Mental Health Literacy</p>
+    <p style="margin: 0; font-size: 0.9rem; color: #444; line-height: 1.5;">Visit mentalhealthliteracy.org to learn more and to access toolkits and resources related to mental health literacy.</p>
+  </div>
+  <a href="https://mentalhealthliteracy.org/" target="_blank" style="flex-shrink: 0; background: #1C2944; color: white; font-weight: 700; font-size: 0.8rem; letter-spacing: 0.1em; text-transform: uppercase; padding: 14px 24px; border-radius: 30px; text-decoration: none; white-space: nowrap;">Learn More</a>
+</div>
+```
+
+
+```{=html}
+<div style="display: grid; grid-template-columns: 1fr auto 1fr; align-items: stretch; gap: 16px; padding: 1.5rem 0;">
+
+  <div style="background: #f8f9fb; border: 1px solid #e8ecf3; border-radius: 12px; padding: 1.25rem 1.5rem; display: flex; flex-direction: column;">
+    <p style="font-size: 11px; font-weight: 500; letter-spacing: 0.08em; text-transform: uppercase; color: #888; margin: 0 0 8px 0;">Previous definition</p>
+    <p style="font-size: 15px; color: #555; line-height: 1.6; margin: 0; font-style: italic;">"Knowledge and beliefs about mental disorders which aid their recognition, management, or prevention."</p>
+    <p style="font-size: 12px; color: #888; margin: 6px 0 0 0;"><a href="https://pubmed.ncbi.nlm.nih.gov/9066546/" target="_blank" style="color: #888;">Jorm et al. (1997)</a></p>
+  </div>
+
+  <div style="display: flex; align-items: center; flex-shrink: 0;">
+    <span style="font-size: 32px; color: #1C2944;">→</span>
+  </div>
+
+  <div style="background: #1C2944; border-radius: 12px; padding: 1.25rem 1.5rem; display: flex; flex-direction: column; justify-content: space-between;">
+    <div>
+      <p style="font-size: 11px; font-weight: 500; letter-spacing: 0.08em; text-transform: uppercase; color: rgba(255,255,255,0.6); margin: 0 0 8px 0;">Updated definition</p>
+      <p style="font-size: 15px; color: rgba(255,255,255,0.92); line-height: 1.6; margin: 0; font-style: italic;">"Understanding how to obtain and maintain positive mental health, understanding mental disorders and their treatments, decreasing stigma related to mental disorders, and enhancing help-seeking efficacy."</p>
+    </div>
+    <p style="font-size: 12px; color: rgba(255,255,255,0.5); margin: 1rem 0 0 0;"><a href="https://pubmed.ncbi.nlm.nih.gov/27254090/" target="_blank" style="color: #888;">(Kutcher et al. 2016)</a></p>
+  </div>
+
+</div>
+```
+
+Good mental health literacy in young people and their key helpers may lead to better outcomes for those with mental disorders, either by facilitating early help-seeking by young people themselves, or by helping adults to identify early signs of mental disorders and seek help on their behalf.
+
+```{=html}
+
+<div class="circle-pair">
+  <div class="circle">
+    <img src="images/module2-img5.jpg" alt="College students sitting on grass" />
+  </div>
+  <div class="circle">
+    <img src="images/module2-img6.jpg" alt="College students walking on campus" />
+  </div>
+</div>
+
+```
+
+**Mental Health Literacy and Stigma**
+
+Most research on the subject shows that mental health literacy does not directly combat stigma when you consider the stigma that exist due to existing prejudices and discrimination. Often, people ignore available information that contradicts their existing beliefs. Instead, mental health literacy aims at correcting misconceptions with factual information.
+
+```{=html}
+<div style="display: flex; gap: 1.2em; margin-bottom: 1.5em; align-items: flex-start;">
+  <div style="min-width: 32px; height: 32px; background: #4AABDB; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-weight: 700; font-size: 0.95rem;">1</div>
+  <p style="margin: 0; line-height: 1.7;">A primary way to intervene early by implementing MHL within <b>schools</b>. This can be done through a third-party organization, or through the school’s teaching staff after they have been educated on the content themselves. Many studies have shown a significant improvement in overall mental health knowledge and help-seeking behaviour.</p>
+</div>
+
+<div style="display: flex; gap: 1.2em; margin-bottom: 1.5em; align-items: flex-start;">
+  <div style="min-width: 32px; height: 32px; background: #4AABDB; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-weight: 700; font-size: 0.95rem;">2</div>
+  <p style="margin: 0; line-height: 1.7;">MHL can also be implemented in other aspects of life, such as informational campaigns, in the workplace (such as within new employee training, company-funded MHL seminars, etc.), and at home. At home, parents should become well-versed with MHL in order to educate their children and have conversations within the home about mental health.</p>
+</div>
+```
+
+## **2.3 Mental Health Education **
+
+Educational approaches to ending stigma present facts about the condition with the aim to correct any misinformation or contradicting negative attitudes or beliefs. There are a mass number of stereotypes and misconceptions regarding mental illness/disorder and can vary in content and severity based on the specific type of mental illness/disorder.
+
+**Stereotypes**
+
+Stereotypes are incredibly harmful to both the person dealing with mental health issues as well as the people who are supporting them. Stereotypes often stem from misunderstanding and fear, but can generate a large number of issues for others (Oexle et al., 2018). Explore some examples of the negative impact of stereotypes below.
+
+```{=html}
+<style>
+  .fc-wrap { display: flex; gap: 1.2em; flex-wrap: wrap; justify-content: center; max-width: 760px; margin: 0 auto; padding: 1rem 0; font-family: 'Open Sans', sans-serif; }
+  .fc-card { width: 220px; height: 220px; perspective: 1000px; cursor: pointer; }
+  .fc-inner { position: relative; width: 100%; height: 100%; transform-style: preserve-3d; transition: transform 0.55s ease; border-radius: 12px; }
+  .fc-card.flipped .fc-inner { transform: rotateY(180deg); }
+  .fc-front, .fc-back { position: absolute; width: 100%; height: 100%; backface-visibility: hidden; border-radius: 12px; overflow: hidden; }
+  .fc-front { background: #1C2944; }
+  .fc-front img { width: 100%; height: 70%; object-fit: cover; display: block; }
+  .fc-front-label { color: white; font-size: 0.78rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; padding: 0.8em 1em; text-align: center; }
+  .fc-back { background: #f0f2f5; border: 2px solid #1C2944; transform: rotateY(180deg); display: flex; flex-direction: column; justify-content: flex-start; padding: 1.2em; box-sizing: border-box; overflow-y: auto;}
+  .fc-back-title { font-size: 0.78rem; font-weight: 700; color: #1C2944; margin: 0 0 0.5em 0; text-transform: uppercase; letter-spacing: 0.05em;}
+  .fc-back-body { font-size: 0.78rem; line-height: 1.6; color: #444; margin: 0; }
+  .fc-hint { text-align: center; font-size: 0.7rem; color: #aaa; margin-top: 0.4em; }
+</style>
+
+<div class="fc-wrap">
+
+  <div>
+    <div class="fc-card" onclick="this.classList.toggle('flipped')">
+      <div class="fc-inner">
+        <div class="fc-front">
+          <img src="images/module2-img11.jpg" alt="Public stigma image"/>
+          <div class="fc-front-label">Not Seeking Help</div>
+        </div>
+        <div class="fc-back">
+          <p class="fc-back-title">Not Seeking Help</p>
+          <p class="fc-back-body"> Not seeking help due to fear of being judged, losing their job, or internal feelings of inadequacy/blame. </p>
+        </div>
+      </div>
+    </div>
+    <p class="fc-hint">click to flip</p>
+  </div>
+
+  <div>
+    <div class="fc-card" onclick="this.classList.toggle('flipped')">
+      <div class="fc-inner">
+        <div class="fc-front">
+          <img src="images/module2-img12.jpg" alt="Loss of Hope"/>
+          <div class="fc-front-label">Loss of Hope</div>
+        </div>
+        <div class="fc-back">
+          <p class="fc-back-title">Loss of Hope</p>
+          <p class="fc-back-body">Reduced hope of recovery or improvement and reduced likelihood of sticking with treatment, possibly due to stereotypes such as “people with mental illness will never fully get better” or “people with mental illness are to blame for their struggles”.</p>
+        </div>
+      </div>
+    </div>
+    <p class="fc-hint">click to flip</p>
+  </div>
+
+  <div>
+    <div class="fc-card" onclick="this.classList.toggle('flipped')">
+      <div class="fc-inner">
+        <div class="fc-front">
+          <img src="images/module2-img13.jpg" alt="Fear of Judgement"/>
+          <div class="fc-front-label">Fear of Judgement</div>
+        </div>
+        <div class="fc-back">
+          <p class="fc-back-title">Fear of Judgement</p>
+          <p class="fc-back-body">Difficulty in social situations or sharing comfortably about mental health problems due to fear of judgment, fear, or misunderstanding. 42% of Canadians were unsure whether they would socialize with a friend who has a mental illness (Mental Illness and Addiction, n.d.). </p>
+        </div>
+      </div>
+    </div>
+    <p class="fc-hint">click to flip</p>
+  </div>
+  
+  <div>
+    <div class="fc-card" onclick="this.classList.toggle('flipped')">
+      <div class="fc-inner">
+        <div class="fc-front">
+          <img src="images/module2-img14.jpg" alt="Bullying"/>
+          <div class="fc-front-label">Bullying</div>
+        </div>
+        <div class="fc-back">
+          <p class="fc-back-title">Bullying</p>
+          <p class="fc-back-body">Increased bullying and/or physical harassment or violence from others due to stereotypes stemming from misunderstanding and fear.</p>
+        </div>
+      </div>
+    </div>
+    <p class="fc-hint">click to flip</p>
+  </div>
+
+</div>
+
+```
+
+**Debunking Stereotypes**
+
+Many stereotypes can be "debunked" (exposed and unlearned) through an educational approach. Using the information you have learned so far, try to debunk the following stereotypes.
+
+```{=html}
+<div style="border-top: 1px solid #dde3ec; margin: 2em 0; font-family: 'Open Sans', sans-serif;">
+
+  <div style="border-bottom: 1px solid #dde3ec;">
+    <div onclick="const c=this.nextElementSibling; const icon=this.querySelector('.acc-icon'); c.style.display=c.style.display==='block'?'none':'block'; icon.textContent=c.style.display==='block'?'−':'+'; this.style.borderLeft=c.style.display==='block'?'4px solid #1C2944':'none'; this.style.paddingLeft=c.style.display==='block'?'12px':'0';"
+      style="display:flex; justify-content:space-between; align-items:center; padding: 1em 0.5em; cursor:pointer;">
+      <span style="font-weight:700; font-size:0.95rem; color:#1C2944;"> Myth #1: Mental health problems are not as severe as physical ones.</span>
+      <span class="acc-icon" style="font-size:1.2rem; color:#1C2944;">+</span>
+    </div>
+    <div style="display:none; padding: 0 0.5em 1em 0.5em; font-size:0.9rem; color:#444; line-height:1.7;">
+      <strong>Truth:</strong> Major depressive disorder is understood to be the second leading cause of disability worldwide (Lozano et al., 2012). The disease burden of mental health and addiction is actually 1.5 times higher than all types of cancers put together in Ontario (Mental Illness and Addiction, n.d.). About 4000 Canadians die per year from suicide (Mental Illness and Addiction, n.d.). Statistics like these show the urgency of mental illness and how it should be taken just as seriously as any other deathly physiological issue or disease.
+    </div>
+  </div>
+
+  <div style="border-bottom: 1px solid #dde3ec;">
+    <div onclick="const c=this.nextElementSibling; const icon=this.querySelector('.acc-icon'); c.style.display=c.style.display==='block'?'none':'block'; icon.textContent=c.style.display==='block'?'−':'+'; this.style.borderLeft=c.style.display==='block'?'4px solid #1C2944':'none'; this.style.paddingLeft=c.style.display==='block'?'12px':'0';"
+      style="display:flex; justify-content:space-between; align-items:center; padding: 1em 0.5em; cursor:pointer;">
+      <span style="font-weight:700; font-size:0.95rem; color:#1C2944;">Myth #2: People with severe mental health problems are scary or dangerous to society.</span>
+      <span class="acc-icon" style="font-size:1.2rem; color:#1C2944;">+</span>
+    </div>
+    <div style="display:none; padding: 0 0.5em 1em 0.5em; font-size:0.9rem; color:#444; line-height:1.7;">
+      <strong>Truth:</strong> People with mental health problems are actually at higher risk for being attacked or hurting themselves than hurting other people (Stigma and Discrimination, 2015). Stereotypes actually cause an increase in bullying and/or physical harassment and harm (Oexle et al., 2018). People fear what they do not understand, so without evident and productive mental health education and literacy, misunderstandings and fear are produced.
+    </div>
+  </div>
+
+  <div style="border-bottom: 1px solid #dde3ec;">
+    <div onclick="const c=this.nextElementSibling; const icon=this.querySelector('.acc-icon'); c.style.display=c.style.display==='block'?'none':'block'; icon.textContent=c.style.display==='block'?'−':'+'; this.style.borderLeft=c.style.display==='block'?'4px solid #1C2944':'none'; this.style.paddingLeft=c.style.display==='block'?'12px':'0';"
+      style="display:flex; justify-content:space-between; align-items:center; padding: 1em 0.5em; cursor:pointer;">
+      <span style="font-weight:700; font-size:0.95rem; color:#1C2944;">Myth #3: People who struggle with depression are lazy.</span>
+      <span class="acc-icon" style="font-size:1.2rem; color:#1C2944;">+</span>
+    </div>
+    <div style="display:none; padding: 0 0.5em 1em 0.5em; font-size:0.9rem; color:#444; line-height:1.7;">
+      <strong>Truth:</strong> Within the diagnostic requirements for major depressive disorder, some of the main symptoms are extreme and constant fatigue, diminished interest in most or all things, and a diminished ability to think and/or concentrate. The change in someone’s productiveness or activity levels is not laziness, but a symptom(s) of the disorder.
+    </div>
+  </div>
+
+  <div style="border-bottom: 1px solid #dde3ec;">
+    <div onclick="const c=this.nextElementSibling; const icon=this.querySelector('.acc-icon'); c.style.display=c.style.display==='block'?'none':'block'; icon.textContent=c.style.display==='block'?'−':'+'; this.style.borderLeft=c.style.display==='block'?'4px solid #1C2944':'none'; this.style.paddingLeft=c.style.display==='block'?'12px':'0';"
+      style="display:flex; justify-content:space-between; align-items:center; padding: 1em 0.5em; cursor:pointer;">
+      <span style="font-weight:700; font-size:0.95rem; color:#1C2944;">Myth #4: Struggling with mental illness and/or seeking help means you are weak.</span>
+      <span class="acc-icon" style="font-size:1.2rem; color:#1C2944;">+</span>
+    </div>
+    <div style="display:none; padding: 0 0.5em 1em 0.5em; font-size:0.9rem; color:#444; line-height:1.7;">
+      <strong>Truth:</strong> Seeking help for mental illness should be looked at as the same as seeking treatment for any other health condition or disorder. It in no way shows weakness or flaws in yourself. If anything, it shows strength..
+    </div>
+  </div>
+
+</div>
+```
+
+**TedTalk: Overcoming Mental Health Stereotypes**
+Overcoming mental health stigma and stereotypes is difficult. The TedTalk below shares one woman's story of doing just that.
+
+{{< video https://www.youtube.com/watch?v=DhFvmmGkdkI&t=1s >}}
+
+
+## **2.4 Other Ways to Reduce Stigma**
+
+It is important to target the behavioural outcomes of the stigmatization process (discrimination and social inequity), which is consistent with rights-based or social justice models that emphasize social and economic equity for those with disabilities (such as equitable access to services, education, work etc.). For example, it is important to create alliances with researchers and program evaluators in order to critically evaluate anti-stigma activities and build better, evidence-based practices.
+
+In this section, we will learn about 3 different types of interventions designed to reduce stigma: 1) awareness-raising, 2) contact-based, and 3) peer advocacy and services.
+
+
+```{=html}
+<style>
+  .lep-wrap { font-family: 'Open Sans', sans-serif; max-width: 680px; margin: 0 auto; padding: 1rem 0; }
+  .lep-step-bar { display: flex; align-items: center; justify-content: center; gap: 10px; margin-bottom: 1.4em; }
+  .lep-step-pill {
+    padding: 5px 16px;
+    border-radius: 20px;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    background: #eee;
+    color: #aaa;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+  .lep-step-pill.active { background: #1C2944; color: white; }
+  .lep-card { display: none; background: white; border: 1px solid #dde3ec; border-radius: 12px; overflow: hidden; }
+  .lep-card.visible { display: block; }
+  .lep-card-inner { padding: 1.8em 2em; }
+  .lep-photo { width: 100%; height: 260px; object-fit: cover; display: block; }
+  .lep-title { font-size: 1.05rem; font-weight: 700; color: #1C2944; margin: 0 0 0.8em 0; }
+  .lep-body { font-size: 0.88rem; line-height: 1.7; color: #333; margin: 0 0 1em 0; }
+  .lep-quote { font-family: Georgia, serif; font-style: italic; font-size: 0.95rem; line-height: 1.5; color: #444; border-left: 3px solid #1C2944; padding-left: 1em; margin: 1em 0; }
+  .lep-link { font-size: 0.82rem; font-weight: 700; color: #1C2944; text-decoration: none; display: inline-flex; align-items: center; gap: 5px; margin-top: 0.4em; }
+  .lep-link:hover { text-decoration: underline; }
+  .lep-nav { display: flex; align-items: center; justify-content: space-between; margin-top: 1.2em; }
+  .lep-btn { width: 38px; height: 38px; border-radius: 50%; background: #1C2944; color: white; border: none; font-size: 1.1rem; cursor: pointer; display: flex; align-items: center; justify-content: center; transition: opacity 0.2s; }
+  .lep-btn:disabled { opacity: 0.25; cursor: default; }
+  .lep-counter { font-size: 0.8rem; color: #888; }
+</style>
+
+<div class="lep-wrap" id="lep-wrap-main">
+
+  <div class="lep-step-bar">
+    <div class="lep-step-pill active" onclick="window.lepGoTo(0)">Awareness-Raising</div>
+    <div class="lep-step-pill" onclick="window.lepGoTo(1)">Contact-Based</div>
+    <div class="lep-step-pill" onclick="window.lepGoTo(2)">Peer Advocacy/Services</div>
+  </div>
+
+  <div class="lep-card visible" id="lep-card-0">
+    <img class="lep-photo" src="images/module2-img1.jpg" alt="pic1"/>
+    <div class="lep-card-inner">
+      <p class="lep-title">Awareness-Raising Interventions</p>
+      <p class="lep-body">This type of intervention is typically a multi-factored approach and occurs during a specific period in time. Often, awareness-raising interventions are organized by an organization or group of organizations.
+<br><br>
+The goal of this type of initiative is to raise awareness and open a dialogue on mental health and illness. Unfortunately, these types of programs are often not evaluated, so it is difficult to know what kind of effect they have and whether their objectives were met.
+<br><br>
+<div style="display: flex; align-items: center; justify-content: space-between; gap: 1.5em; padding: 0.9em 1.2em; border-radius: 16px; background: white; border: 2px solid #1C2944; margin-bottom: 0.8em;">
+  <div>
+    <p style="font-weight: 700; margin: 0 0 0.2em 0; color: #1C2944; font-size: 0.9rem;">World Mental Health Day</p>
+    <p style="margin: 0; font-size: 0.8rem; color: #444; line-height: 1.5;">The World Health Organization has designated October 10 as World Mental Health Day. All stakeholders working in mental health are encouraged to talk openly about their work, to raise awareness of mental health concerns around the globe, and to discuss ways to improve mental healthcare access.</p>
+  </div>
+  <a href="http://www.who.int/mental_health/world-mental-health-day/en/" target="_blank" style="flex-shrink: 0; background: #1C2944; color: white; font-weight: 700; font-size: 0.75rem; letter-spacing: 0.1em; text-transform: uppercase; padding: 10px 18px; border-radius: 30px; text-decoration: none; white-space: nowrap;">Learn More</a>
+</div>
+      </p>
+    </div>
+  </div>
+
+  <div class="lep-card" id="lep-card-1">
+    <img class="lep-photo" src="images/module2-img2.jpg" alt="pic2"/>
+    <div class="lep-card-inner">
+      <p class="lep-title">Contact-Based Interventions</p>
+      <p class="lep-body">Across a wide range of stigmatizing conditions, people without the stigmatized conditions have little meaningful contact with those who have these conditions. Lack of contact fosters discomfort, distrust, and fear. Contact-based anti-stigma campaigns are one way to foster connection and facilitate positive interactions.
+<br><br>
+Contact-based education involves people with lived experience of mental illness educating students by sharing their personal stories with positive recovery messages. Contact-based anti-stigma campaigns have been shown to reduce stigma at the individual level. This type of intervention can raise awareness and correct misconceptions, though there is mixed evidence regarding its ability to change behaviours and maintain change long-term. As a result, contact-based education does not often reduce stigma at the macro- or structural-level.
+<br>
+  <img src="images/module2-img16.png" alt="A group of students standing together" style="width: 100%; height: 200px; object-fit: cover; border-radius: 8px; margin-top: 1em; cursor: pointer;">
+  <br><br>
+However, the value of contact-based anti-stigma education at the individual level should not be dismissed. For adolescents and emerging adults, fostering connection in an online setting may be beneficial and appealing. The internet is often able to provide anonymity which is preferred by patients (especially when first seeking a connection). In general, the effects of contact in person are higher than those by video or online, but some still prefer the online option.
+<br><br>
+Contact-based campaigns are often combined with educational and mental health literacy initiatives. This involves information being presented, and then people with lived experience supporting and personalizing the information by relating it to their own life experiences. Although combined interventions generally show an advantage over educational interventions alone, they are implemented less often.
+      </p>
+    </div>
+  </div>
+ 
+  <div class="lep-card" id="lep-card-2">
+    <img class="lep-photo" src="images/module2-img2.jpg" alt="pic2"/>
+    <div class="lep-card-inner">
+      <p class="lep-title">Peer Advocacy/Services</p>
+      <p class="lep-body">These interventions are based on the same concept as contact-based campaigns: that social connection and positive interactions can contribute to reducing stigma.
+<br><br>
+Peer service providers are people with lived experience who work as health care team members and foster the provision of nonjudgmental, non-discriminatory services while openly identifying their own experiences. An example is the grassroots organization <a href="https://activeminds.org/"><b>Active Minds</b></a>, a college student mental health advocacy group based in the United States (see the video below for more info). Peer support also aims to counterbalance discrimination, rejection and isolation individuals may feel when seeking mental health support or treatment. 
+<br>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; border-radius: 8px; margin-top: 1em;">
+  <iframe src="https://www.youtube.com/embed/gHtYyPgyJBQ" 
+    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" 
+    frameborder="0" allowfullscreen>
+  </iframe>
+</div>
+      </p>
+    </div>
+  </div>
+</div>
+
+<script>
+window.lepCurrent = 0;
+window.lepGoTo = function(idx) {
+  var wrap = document.getElementById('lep-wrap-main');
+  var cards = wrap.querySelectorAll('.lep-card');
+  var pills = wrap.querySelectorAll('.lep-step-pill');
+  var total = cards.length;
+  cards.forEach(function(c) { c.classList.remove('visible'); });
+  pills.forEach(function(p) { p.classList.remove('active'); });
+  cards[idx].classList.add('visible');
+  pills[idx].classList.add('active');
+  window.lepCurrent = idx;
+}
+</script>
+```
+
+------------
+
+```{=html}
+<div class="section-summary">
+  <h3>2.5 Section Summary</h3>
+  <ul>
+    <li>There are many types of stigma related to mental illness: public stigma, self-stigma, structural stigma, and stigma-by-association. Public stigma is the typical definition of stigma, which highlights the views of the public towards mental health issues or a specific condition. Self-stigma occurs when an individual internalizes the negative stereotypes associated with their illness. Structural stigma is introduced by large, societal structures (e.g., laws, policies, practices that result in unfair treatment). Stigma-by-association occurs when an indiviudal is stigamtized as a result of their elationship with a member of a stigmatized group (e.g., indidviudals living with mental illnesses).</li>
+    <li>Stigma can have many harms and societal consequences, including: the formation of serious barriers to help seeking and recieving proper diagnoses and treatment; unemployment resutling in lack of income and financial stability, as well as daily routines/structure and sense of purpose; and intersectional impacts for those who are stigmatized for other reasons, such as race, gender, or sexuality.</li>
+    <li>Many types of anti-stigma interventions were introduced in this module, including: mental health education, mental health literacy, awareness-raising campaigns, contact-based interventions, and peer advocacy/services. </li>
+  </ul>
+</div>
+```
+
+------------
+
+
+# **Module Contributors**
+
+```{=html}
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+
+<style>
+  .contrib-wrap { display: flex; gap: 1em; flex-wrap: wrap; max-width: 760px; margin: 0 auto; padding: 1rem 0; font-family: 'Open Sans', sans-serif; }
+  .contrib-card { background: #f5f6f8; border-radius: 10px; padding: 1.1em 1.3em; min-width: 200px; flex: 1 1 45%; box-sizing: border-box; }
+  .contrib-name { font-size: 0.85rem; font-weight: 700; color: #1C2944; margin: 0 0 0.2em 0; text-transform: uppercase; }
+  .contrib-program { font-size: 0.78rem; color: black; margin: 0; line-height: 1.5; }
+  .contrib-role { font-size: 0.78rem; font-style: italic; color: black; margin: 0.5em 0 0 0; }
+  .contrib-links { display: flex; gap: 0.6em; }
+  .contrib-link { color: #1C2944; font-size: 1.1rem; text-decoration: none; transition: opacity 0.2s; }
+  .contrib-link:hover { opacity: 0.6; }
+</style>
+
+<div class="contrib-wrap">
+
+  <div class="contrib-card">
+    <p class="contrib-name">Amy Ecclestone</p>
+    <p class="contrib-program">PhD Candidate, Health Sciences<br>University of Waterloo</p>
+    <p class="contrib-role">Role: Content Developer</p>
+  </div>
+  
+<div class="contrib-card">
+    <p class="contrib-name">Jessica Rose</p>
+    <p class="contrib-program">Bachelor of Health Sciences<br>Queen's University</p>
+    <p class="contrib-role">Role: Content Developer</p>
+  </div>
+  
+   <div class="contrib-card">
+    <p class="contrib-name">Cristina Rosaria White</p>
+    <p class="contrib-program">Bachelor of Medical Sciences<br>Western University</p>
+    <p class="contrib-role">Role: Content Developer</p>
+  </div>
+  
+<div class="contrib-card">
+    <p class="contrib-name">Ainsley Johnstone</p>
+    <p class="contrib-program">Bachelor of Health Sciences<br>Queen's University</p>
+    <p class="contrib-role">Role: Content Developer</p>
+  </div>
+  
+  <div class="contrib-card">
+  <div style="display:flex; align-items:center; justify-content: space-between; flex-wrap:wrap;">
+    <p class="contrib-name" style="margin:0;">Dr. Brooke Linden, PhD</p>
+    <div class="contrib-links" style="margin:0;">
+      <a class="contrib-link" href="https://scholar.google.com/citations?user=KCkz6iQAAAAJ&hl=en" title="Google Scholar" target="_blank"><i class="fa-solid fa-graduation-cap"></i></a>
+      <a class="contrib-link" href="https://bhsc.queensu.ca/current-students/faculty-directory/brooke-linden" title="University Profile" target="_blank"><i class="fa-solid fa-user"></i></a>
+    </div>
+  </div>
+    <p class="contrib-program">Health Sciences and Policy Research Institute<br>Queen's University</p>
+    <p class="contrib-role">Role: Subject Matter Expert</p>
+  </div>
+  
+  <div class="contrib-card">
+  <div style="display:flex; align-items:center; justify-content: space-between; flex-wrap:wrap;">
+    <p class="contrib-name">Dr. Heather Staurt, PhD</p>
+    <div class="contrib-links" style="margin:0;">
+      <a class="contrib-link" href="https://www.researchgate.net/profile/Heather-Stuart" title="Google Scholar" target="_blank"><i class="fa-solid fa-graduation-cap"></i></a>
+      <a class="contrib-link" href="https://phs.queensu.ca/faculty-research/heather-stuart" title="University Profile" target="_blank"><i class="fa-solid fa-user"></i></a>
+    </div>
+    <p class="contrib-program">Department of Health Sciences<br>Queen's University</p>
+    <p class="contrib-role">Role: Subject Matter Expert</p>
+  </div>
+  
+
+</div>
+```
