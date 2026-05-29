@@ -477,8 +477,8 @@ The stigma of mental illness causing unemployment results in detrimental consequ
 ```{=html}
 <div style="display: flex; align-items: center; justify-content: space-between; gap: 2em; padding: 1.2em 1.5em; border-radius: 8px; background: white; border: 1px solid #eee; margin-bottom: 1em;">
   <div>
-    <p style="font-weight: 700; margin: 0 0 0.3em 0; color: #1C2944;">Social Stigma and Unemployment - BMC Psychology</p>
-    <p style="margin: 0; font-size: 0.9rem; color: #444; line-height: 1.5;">Social stigma is an underestimated contributing factor to unemployment in people with mental illness or mental health issues: position paper and future directions.</p>
+    <p style="font-weight: 700; margin: 0 0 0.3em 0; color: #1C2944;">Social Stigma and Unemployment</p>
+    <p style="margin: 0; font-size: 0.9rem; color: #444; line-height: 1.5;">Social stigma is an underestimated contributing factor to unemployment in people with mental illness or mental health issues: read this position paper published in BMC Psychology to learn more.</p>
   </div>
   <a href="https://link.springer.com/article/10.1186/s40359-020-00399-0" target="_blank" style="flex-shrink: 0; background: #1C2944; color: white; font-weight: 700; font-size: 0.8rem; letter-spacing: 0.1em; text-transform: uppercase; padding: 14px 24px; border-radius: 30px; text-decoration: none; white-space: nowrap;">Learn More</a>
 </div>
