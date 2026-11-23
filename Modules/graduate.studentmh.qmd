@@ -1,0 +1,884 @@
+---
+title: "Graduate Student Mental Health"
+subtitle: "Module 9"
+author: ""
+format:
+  html:
+    theme: cosmo
+    toc: true
+    toc-depth: 5
+    toc-expand: true
+---
+
+<!-- This next grey chunk is all the css / design for the module - no need to edit anything here! -->
+
+```{=html}
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Open+Sans&display=swap');
+
+  body {
+    font-family: 'Roboto', sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  h1 { font-size: 1.6rem !important; }
+  h2 { font-size: 1.2rem !important; }
+  h3 { font-size: 1.1rem !important; }
+  h4 { font-size: 1.0rem !important; }
+
+  .indented-list {
+    padding-left: 20px;
+    font-size: 90%;
+  }
+
+  /* --- BLOCKQUOTE STYLE --- */
+  /* Used for pull quotes within the text. Syntax: > Your quote here */
+  blockquote {
+    font-family: Garamond, serif !important;
+    font-size: 1.4rem !important;
+    font-style: italic !important;
+    border-left: 4px solid #1C2944 !important;
+    padding-left: 1em !important;
+    margin-left: 2em !important;
+    color: #444 !important;
+    line-height: 1.25 !important;
+  }
+
+  /* --- CIRCLE IMAGE PAIR --- */
+  /* Used to display two circular images side by side. See HTML block below for usage. */
+  .circle-pair {
+    text-align: center;
+    margin: 2em 0;
+  }
+
+  .circle-pair .circle {
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    margin: 0 15px;
+    border-radius: 50%;
+    overflow: hidden;
+    vertical-align: top;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  }
+
+  .circle-pair .circle img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+  /* --- BANNER IMAGE WITH QUOTE OVERLAY --- */
+  /* Used for a wide image with a quote overlaid at the bottom. See HTML block below for usage. */
+  .crop-bottom-half {
+    width: 100%;
+    max-width: 100%;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+    margin: 20px auto;
+    border-radius: 8px;
+  }
+
+  .crop-bottom-half img {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+
+  .crop-bottom-half .image-text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+    font-family: Georgia, serif;
+    font-style: italic;
+    font-size: 1.2rem;
+    font-weight: normal;
+    text-align: center;
+    padding: 10px 50px;
+    box-sizing: border-box;
+  }
+
+  .crop-bottom-half .quote {
+    font-family: Georgia, serif;
+    font-style: italic;
+    font-size: 1.4rem;
+    line-height: 1.4;
+    display: block;
+  }
+
+  .crop-bottom-half .attribution {
+    font-family: "Roboto", sans-serif;
+    font-size: 0.9rem;
+    font-style: normal;
+    font-weight: 300;
+    margin-top: 6px;
+    display: block;
+  }
+
+.home-btn {
+  display: inline-block;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: white;
+  text-decoration: none;
+  background-color: #1C2944;
+  border: 2px solid #1C2944;
+  border-radius: 20px;
+  padding: 4px 12px;
+  margin-bottom: 0.5em;
+  transition: all 0.2s ease;
+  display: inline-block;
+}
+
+.home-btn:hover {
+  background-color: white;
+  color: #1C2944;
+}
+
+.square-trio {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin: 1.5rem 0;
+}
+
+.square-trio .square {
+  flex: 1;
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
+  border-radius: 4px;
+}
+
+.square-trio .square img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.section-summary {
+  background-color: #1C2944;
+  color: white;
+  border-radius: 10px;
+  padding: 1.5em 2em;
+  margin: 2em 0;
+}
+
+.section-summary h3 {
+  color: white !important;
+  margin-top: 0;
+  font-size: 1rem !important;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.section-summary li {
+  margin-bottom: 0.5em;
+  line-height: 1.5;
+}
+
+</style>
+
+```
+
+```{=html}
+
+<div style="border-bottom: 3px solid #243559; padding-bottom: 0.5em; margin-bottom: 1em;">
+  <a class="home-btn" href="../index.html">← Module Library Home</a>
+</div>
+```
+
+
+# **1. Frequency of Mental Distress and Mental Illnesses**
+
+## **1.2 Mental Health Disorders in Graduate Students**
+
+There are high frequencies of mental health illnesses, such as anxiety and depression, in graduate students ([Hyun et al., 2006](https://muse.jhu.edu/article/197830/pdf?casa_token=R0-Msokv8e0AAAAA:qtcfePIqijiWPSIR1lSuxNdiZVMPxI1F3FykFKIah_Du36RLLngaMVVkOmiDCJVIJUUBoXj5md8)). In addition to mental health concerns, students have frequently reported experiencing negative emotions such as feeling overwhelmed and exhausted (([Hyun et al. 2006](https://muse.jhu.edu/article/197830/pdf?casa_token=R0-Msokv8e0AAAAA:qtcfePIqijiWPSIR1lSuxNdiZVMPxI1F3FykFKIah_Du36RLLngaMVVkOmiDCJVIJUUBoXj5md8)). This can vary by gender as well, as graduate students who identify as women more frequently report mental health symptoms or experience a negative emotions than men ([Hyun et al., 2006](https://muse.jhu.edu/article/197830/pdf?casa_token=R0-Msokv8e0AAAAA:qtcfePIqijiWPSIR1lSuxNdiZVMPxI1F3FykFKIah_Du36RLLngaMVVkOmiDCJVIJUUBoXj5md8)).
+
+Most research on post-secondary mental health has focused on undergraduate students, or those students in ‘professional’ graduate programs (i.e., non-thesis-based occupational specialty programs such as medical school, law school, etc.), so there is somewhat of a gap in understanding mental health for graduate students ([Hyun et al., 2006](https://muse.jhu.edu/article/197830/pdf?casa_token=R0-Msokv8e0AAAAA:qtcfePIqijiWPSIR1lSuxNdiZVMPxI1F3FykFKIah_Du36RLLngaMVVkOmiDCJVIJUUBoXj5md8)). But, in studies that have been completed, in comparison to medical students, graduate students have been found to have higher overall stress and presentation of mental illness ([Towers et al., 1997](https://academic.oup.com/academicmedicine)).
+
+Unique stressors for graduate students include: financial concerns, the need to publish and complete research, ambiguous expectations, which could include from their program, committee and/or supervisor,  and uncertainty of employment or work available once degrees are complete ([Towers et al., 1997](https://academic.oup.com/academicmedicine)).
+
+
+Add body text here. To add text that has a link, enter it like this ([in-text citation](www.google.ca)).
+
+For example: 
+Provinces and territories are provided with funding from the federal government to provide coverage for health services deemed to be "medically necessary" ([Canadian Civil Liberties Association 2017](https://ccla.org/get-informed/talk-rights/the-state-of-mental-health-in-canada/)).
+
+:::callout-note
+A 2017 study ([Levecque et al.](https://www.sciencedirect.com/science/article/pii/S0048733317300422?via%3Dihub)) that Levecque co-authored found that one in three PhD students is at risk of developing a mental-health disorder, particularly depression.
+:::
+
+
+## **1.3 Loneliness and Isolation**
+
+Graduate work often involves isolating work, such as singular research on a niche thesis topic, long hours behind a computer writing or reading, or isolation in a lab setting ([Hyun et al., 2006](https://muse.jhu.edu/article/197830/pdf?casa_token=R0-Msokv8e0AAAAA:qtcfePIqijiWPSIR1lSuxNdiZVMPxI1F3FykFKIah_Du36RLLngaMVVkOmiDCJVIJUUBoXj5md8)).
+
+In addition to isolating work, graduate students often suffer from a poor work-life balance which leads to strained social relationships and detachment from hobbies and interests, resulting in poor mental health ([Hyun et al., 2006](https://muse.jhu.edu/article/197830/pdf?casa_token=R0-Msokv8e0AAAAA:qtcfePIqijiWPSIR1lSuxNdiZVMPxI1F3FykFKIah_Du36RLLngaMVVkOmiDCJVIJUUBoXj5md8))([CICMH, 2019](https://campusmentalhealth.ca/wp-content/uploads/2020/07/CICMH-Graduate-Student-Mental-Health_Toolkit.pdf)). In fact, the average graduate student was found to be lonelier than the average retired person ([Barriera et al., 2018](https://scholar.harvard.edu/files/bolotnyy/files/bbb_mentalhealth_paper.pdf))
+
+Additionally, many social and cultural campus social services and clubs are targeted at undergraduate students, leaving less opportunity for grad students to connect. 
+
+
+### **1.3.1 Distinguishing Loneliness vs Isolation**
+**Loneliness**: being unfulfilled in one’s social and intimate needs. It is considered a subjective experience.
+**Isolation**:Isolation: Considered more objective, it is a person or place that is alone from others. In this case, it is frequently measured as the number of contact with family and friends.
+
+
+## ** 1.4 How to Combat Social Isolation and Loneliness**
+- Work on projects that you care about, and have meaning to you
+- Talk to a loved one or personal contact about your feelings of loneliness and/or stress
+ Get involved in activities outside of your research. Invest in relationships outside your department, and or outside of the school
+- Prioritize peer support. Try to develop supportive friendships with other graduate students or the students in your lab. Peer support is extremely important as it can involve: 
+1. Sharing guidance that other students have learned from their experience/supervisors
+2. Creating a safe space to share anxieties, stressors and fears of graduate school; you may find your fellow students have the same fears that you are feeling!
+3. Decreasing feelings of loneliness and isolation amongst students
+
+- Explore resources available at your school, for example, counselling, student mental health groups, etc.
+
+- Prioritize maintaining a good relationship with your supervisor
+
+> A healthy work-life balance is extremely important. Creating personal boundaries (i.e., treating school like a 9-5 job) allows you to take time for things like self-care and maintaining relationships with loved ones. 
+
+**Trying to Find Work-Life Balance as a Grad Student**
+Lakehead University has created a resource for graduate students with strategies for maintaining a healthy work-life balance. Although created by Lakehead, the resources provided are applicable to graduate students from all institutions.
+([Click Here](https://www.lakeheadu.ca/students/wellness-recreation/student-health-and-wellness/wellu/2020/node/61387))
+
+
+#**2. Imposter Syndrome**
+
+##**2.1 What is Imposter Syndrome?**
+- Coined in the 1970s by Dr. Pauline Clance, Imposter Syndrome defines the feeling that one’s achievements are undeserved and the fear that one will be exposed as a “fraud”. The original definition by Clance is “internal experience of intellectual phoniness” ([Charles et al., 2022](https://www.tandfonline.com/doi/pdf/10.1080/07448481.2020.1841207))([Salkulku & Alexander, 2011](https://so06.tci-thaijo.org/index.php/IJBS/article/view/521/pdf))
+
+- Imposter syndrome affects a wide range of people and positions, from academics to marketing managers ([Salkulku & Alexander, 2011](https://so06.tci-thaijo.org/index.php/IJBS/article/view/521/pdf)). It is estimated that up to 70% of people will feel imposter syndrome at least once in their life ([Salkulku & Alexander, 2011](https://so06.tci-thaijo.org/index.php/IJBS/article/view/521/pdf)).
+
+- Imposter syndrome can greatly affect one’s mental health and is linked to anxiety and depression ([Salkulku & Alexander, 2011](https://so06.tci-thaijo.org/index.php/IJBS/article/view/521/pdf))
+
+###**2.1.2 Identifying Imposter Syndrome**
+Clance defines six characteristics that identify Imposter Syndrome.  These include ([Salkulku & Alexander, 2011](https://so06.tci-thaijo.org/index.php/IJBS/article/view/521/pdf))
+
+1.**The Imposter Cycle ** 
+This is a continuous cycle experienced when assigned a task. One feels initial anxiety, self-doubt and stress about completing the task, which may lead to extreme over preparation or procrastination. Once the task is successfully completed, one feels initial relief but this does not last. If they receive positive feedback, they do not correlate this with their own ability.  This creates more feelings of fraud and self-doubt within the person, which persists when a new task is given; thus repeating the cycle. 
+2. **The Need to be Special or the Very Best**
+Those who experience imposter syndrome often feel the need to be the best, and at one point in time, they might have been, such as being at the top of their class in high school. But, when their situation changes, such as going to a large university with many intellectual people, they may dismiss any talent or intelligence that they have.  
+3. **Superman/Superwoman Aspects**
+This characteristic is related to the characteristic of “the need to be the best” in that those who experience imposter syndrome feel the need to be perfect or flawless in everything they do. They will often set unrealistic standards for themselves and feel disappointment or failure when they are not met. 
+4. **Fear of Failure**
+This is thought to be the underlying motivation behind all people who experience imposter syndrome. Those with imposter syndrome feel high levels of anxiety when completing a task due to a strong fear of failure since failure is seen to be shameful and humiliating.
+5. **Denial of Competence and Discounting Praise**
+Not to be confused with false modesty, those with imposter syndrome have difficulty internalizing their success and instead explain their success by external factors. They also discount positive feedback and find evidence against why they do not deserve credit. 
+6. **Fear and Guilt About Success**
+Those with imposter syndrome fear rejection from others when their success is atypical, in other words, if their success is considered unusual by their family or peers this can spark feelings of guilt. Success also brings the fear that they will be given more opportunities for them to be identified as “frauds”.  
+
+**2.2 Imposter Syndrome in Women**
+Although feelings of uncertainty are an expected and normal part of professional life, women who experience them are deemed to **suffer** from imposter syndrome.
+
+Even if women demonstrate **strength**, **ambition**, and **resilience**,  daily battles with microaggressions, especially expectations and assumptions formed by **stereotypes** and racism, often push us down. Imposter syndrome as a concept fails to capture this dynamic and puts the onus on women to deal with the effects. Workplaces remain **misdirected** toward seeking individual solutions for issues disproportionately caused by **systems of discrimination and abuses of power.**
+
+As stated by organizational psychologist Tomas Chamorro-Premuzic:
+
+"The truth of the matter is that pretty much anywhere in the world men tend to think that they are much smarter than women. Yet arrogance and overconfidence are inversely related to leadership talent — the ability to build and maintain high-performing teams, and to inspire followers to set aside their selfish agendas in order to work for the common interest of the group."
+
+**([Stop Telling Women They Have Imposter Syndrome](https://hbr.org/2021/02/stop-telling-women-they-have-impostor-syndrome))**
+"Imposter syndrome," or doubting your abilities and feeling like a fraud at work, is a diagnosis often given to women. But the fact that it's considered a diagnosis at all is problematic.
+([Read More on Harvard Business Review](https://hbr.org/2021/02/stop-telling-women-they-have-impostor-syndrome))
+
+
+
+
+#**3. Imposter Syndrome in Graduate Students**
+
+##**3.1 Imposter Syndrome in Graduate School**
+Graduate students have been noted to be at high risk for imposter syndrome ([Dolby, 2022](https://www.sciencedirect.com/science/article/pii/S1877129721003439?via%3Dihub)).
+
+Rejection (from grants, papers, conferences, etc.)  imposter syndrome and burnout are  frequent in academic circles. Frequent rejection can wear down academics, leading to burnout. Repeated rejection also can lead people to assume the work that is accepted is accepted as an exception, not a reflection of the quality of their work,  which can lead to imposter syndrome. Perfectionism and fear of failure that result from imposter syndrome lead to sustained overworking, which in turn, can lead to burnout ([Dolby, 2022](https://www.sciencedirect.com/science/article/pii/S1877129721003439?via%3Dihub)). 
+
+Rejection, burnout, and imposter syndrome are not often talked about in academic circles due to stigma, and this silence can lead to poor mental health.
+
+###**3.1.1 Resource: Strategies to Manage Imposter Syndrome**
+
+The following resource by the University of Waterloo contains strategies and information on imposter syndrome amongst graduate students, who are particularly susceptible. **These include:**
+
+1. **Break the silence**	Speak out about your feelings. Knowing there is a name for these feelings and that other people suffer from them can be reassuring.
+2. **Separate feelings from fact**	Everyone feels stupid from time to time. Just because you feel it doesn’t mean you are.
+3. **Recognize when it’s normal to feel fraudulent**	When something is new to you, you may feel like you don’t fit in. These feelings are a natural response for any novice.
+4. **Accentuate the positive**	Don’t obsess over everything. Do a great job when it is important, don’t perseverate over routine tasks.
+5. **Develop a new response to failure and mistake making**	Learn from your mistakes and move on. Don’t dwell on what has happened in the past.
+6. **Right the rules**	Don’t feel like you always need to know the correct answer. Recognize that you have just as much right as the next person to make a mistake or ask for help.
+7. **Develop a new script**	Rewrite your mental script from “I am an impostor” to “I may not know all the answers but I am smart enough to figure it out.”
+8. **Visualize success**	Instead of thinking of worst case scenarios, imagine yourself conducting an excellent presentation or answering questions with the correct reply.
+9. **Reward yourself**	Learn to pat yourself on the back when you deserve it. Don’t hide from validation!
+10. **Fake it ‘til you make it**	Take a chance and “wing it;” this is not a sign of ineptness, but rather a sign that you are intelligent and able to rise to a challenge.
+
+**Imposter Phenomenon and Graduate Students**
+This article featured on the University of Waterloo's website details the common experience of imposter syndrome amongst post-secondary students.([Click Here](https://uwaterloo.ca/centre-for-teaching-excellence/catalogs/tip-sheets/imposter-phenomenon))
+
+
+#**4.Combatting Imposter Syndrome**
+Understand that rejection is not failure. Rejection, burnout and imposter syndrome are very common parts of life ([Dolby, 2022](https://www.sciencedirect.com/science/article/pii/S1877129721003439?via%3Dihub)).
+
+**Click on the cards below to learn 8 strategies to combat imposter syndrome.**
+1. Know that rejection is not failure, and rejection, burnout and imposter syndrome are very common.
+2. If you receive a rejection, take time to let your feelings subside. Know that rejection is a part of the process in academia and must occur for progress to happen. 
+3. Embrace not knowing everything
+4. Embrace the diversity of success: success could be receiving many publications or having a wonderful life outside of graduate school.
+5. Focus on past successes to minimize feelings of imposter syndrome.
+6. Feel the fear, but then do it anyway.
+7. Try to find a trusted source to openly discuss your feelings with.
+8. Try to join a mentorship program or be a mentor yourself. Mentorship can help alleviate imposter syndrome for the mentee and be a rewarding experience for a mentor.
+
+**TedTalk: How You Can Use Impostor Syndrome to Your Benefit?**
+Have you ever doubted your abilities, and feared you were going to be discovered as a "fraud"? That's called "impostor syndrome," and you're definitely not alone in feeling it, says entrepreneur and CEO Mike Cannon-Brookes. In this funny, relatable talk, he shares how his own experiences of impostor syndrome helped pave the way to his success -- and shows how you can use it to your advantage, too.
+
+Link to TedTalk: https://www.youtube.com/watch?v=zNBmHXS3A6I
+
+
+#**5. Combatting Burnout**
+
+##**5.1 What is Burnout**
+Burnout has been mentioned a couple times throughout this module, but how do we actually define burnout and how can you spot it in your life? The Centres for Addiction and Mental Health defines burnout as a “state of emotional, physical and mental exhaustion caused by excessive and prolonged stress” ([CAMH, 2022](https://www.camh.ca/en/camh-news-and-stories/career-burnout#:~:text=What%20is%20burnout%3F,and%20other%20aspects%20of%20life)).
+
+Basically, burnout stems from a culture to overwork, or feeling the need to work 24/7. Burnout can affect not only our performance at work and/or school, but has also been found to cause people to be emotionally drained finding it difficult to function in other aspects of their life as well ([CAMH, 2022](https://www.camh.ca/en/camh-news-and-stories/career-burnout#:~:text=What%20is%20burnout%3F,and%20other%20aspects%20of%20life)). This can lead to helplessness, hopelessness and resentment.
+
+Unfortunately, research suggests that the prevalence of burnout is quite high in academia. A 2020 survey of the mental health of junior researchers found that 38% of the 13,000 respondents reported they often felt overwhelmed with their work ([Forrester, 2021](https://media.nature.com/original/magazine-assets/d41586-021-01751-z/d41586-021-01751-z.pdf)). A Nature survey from 2019 of PhD students across the world also found that 40% of respondents were unhappy with their (lack of) work-life balance ([Forrester, 2021](https://media.nature.com/original/magazine-assets/d41586-021-01751-z/d41586-021-01751-z.pdf)).
+
+###**5.1.1 Burnout can look like:**
+1. Feeling drained and tired the majority of the time
+2. Disrupted Sleep
+3. Physical symptoms (backaches, stomach aches, headaches, and loss of appetite)
+4. Low confidence and/or feeling helpless
+5. Difficulty focusing or completing tasks
+
+###**5.1.2 Combatting and Preventing Burnout**
+1. Exercise is important - even going for a walk outside could ease symptoms of burnout ([CAMH, 2022](https://www.camh.ca/en/camh-news-and-stories/career-burnout#:~:text=What%20is%20burnout%3F,and%20other%20aspects%20of%20life)).
+2. Try to socialize with coworkers/fellow students to avoid just coming into school/work and hiding in the library or your office. Withdrawing into the work environment can also induce feelings of isolation, so try to establish some daily connection with peers ([CAMH, 2022](https://www.camh.ca/en/camh-news-and-stories/career-burnout#:~:text=What%20is%20burnout%3F,and%20other%20aspects%20of%20life))
+3. Schedule breaks for yourself, whether it be a workout, making lunch, browsing the internet, or watching a TV show ([The Chicago School, 2021](https://www.thechicagoschool.edu/insight/psychology/want-to-avoid-grad-school-burnout-try-these-5-tips/#:~:text=While%20grad%20school%20burnout%20may,to%20drop%20out%20of%20school)). 
+4. Learn to say “no” to responsibilities and projects ([The Chicago School, 2021](https://www.thechicagoschool.edu/insight/psychology/want-to-avoid-grad-school-burnout-try-these-5-tips/#:~:text=While%20grad%20school%20burnout%20may,to%20drop%20out%20of%20school)).
+5. Try to set clear boundaries with yourself and your work. Some examples include ([The Chicago School, 2021](https://www.thechicagoschool.edu/insight/psychology/want-to-avoid-grad-school-burnout-try-these-5-tips/#:~:text=While%20grad%20school%20burnout%20may,to%20drop%20out%20of%20school)):
+- No phone or computer use right before bedtime
+- No responding to emails after a certain time of night
+- ctually let yourself take a vacation and relax
+- Do your school work in a location outside your home, or in a specific room of your home (like a separate office) to keep personal spaces as a respite from work. 
+- Treat graduate school like a 9-5pm job to avoid always working. 
+
+#**6. Supervisory Relationships**
+
+##**6.1 Building Healthy Supervisory Relationships**
+A healthy, effective relationship between a graduate student and their supervisor is critical to the student's experience in grad school, and can have a large impact on their overall mental health ([CICMH, 2019](https://campusmentalhealth.ca/wp-content/uploads/2020/07/CICMH-Graduate-Student-Mental-Health_Toolkit.pdf)). Students rely on their supervisors for financial support, research support, and career guidance. Good relationships with graduate supervisors have been associated with positive emotional well-being ([Hyun et al., 2006](https://muse.jhu.edu/article/197830/pdf?casa_token=R0-Msokv8e0AAAAA:qtcfePIqijiWPSIR1lSuxNdiZVMPxI1F3FykFKIah_Du36RLLngaMVVkOmiDCJVIJUUBoXj5md8)), while difficult relationships with supervisors have been linked to distress ([CICMH, 2019](https://campusmentalhealth.ca/wp-content/uploads/2020/07/CICMH-Graduate-Student-Mental-Health_Toolkit.pdf)). 
+
+Graduate students identify poor relationships with their supervisors as being characterized by the student feeling undervalued, unsupported, and/or experiencing a lack of mentorship and guidance ([CICMH, 2019](https://campusmentalhealth.ca/wp-content/uploads/2020/07/CICMH-Graduate-Student-Mental-Health_Toolkit.pdf)).
+
+###**Developing a Healthy Supervisory Relationship**
+So how then, can grad students go about ensuring that they develop and maintain healthy, effective working relationships with their supervisors? We have included some resources below that can help you to build a foundation for a great supervisory relationship, and maintain that relationship throughout your studies (and beyond). 
+
+**CICMH - Graduate Student Mental Health Toolkit** 
+Amongst other things, this toolkit contains information on the importance of supervisor-supervisee guidance.
+([Click Here](https://campusmentalhealth.ca/wp-content/uploads/2020/07/CICMH-Graduate-Student-Mental-Health_Toolkit.pdf))
+
+**University of British Colombia Resource**
+Contains information on how to build effective graduate student supervisory relationships.
+([Click Here](https://www.grad.ubc.ca/supervision))
+
+###**Tips for Managing Supervisory Relationships** 
+
+- Meet at a frequency and time that is beneficial to you. A 2011 study found that graduate students who met with their supervisor less frequently had less satisfying mentorship experiences and higher distress ([Salkulku & Alexander, 2011](https://so06.tci-thaijo.org/index.php/IJBS/article/view/521/pdf)).
+
+- Set clear expectations for meeting frequency at the beginning of your program. Understand when your supervisor is available and how to best contact them to schedule meetings (e.g., through their administrative assistant, through direct e-mail communication).
+
+- Ensure you communicate your needs, aspirations, and expectations so your supervisor can provide you with opportunities that align with your goals.
+
+
+#**7. Professional Development**
+
+##**7.1 Professional Development in Graduate School**
+A major source of stress for many graduate students is the need to further their professional development through engaging in opportunities such as conducting original research, learning how to teach at the higher education level, publishing, and participating in conferences ([Lockyer et al. 1997](https://academic.oup.com/academicmedicine)). Often, stress around these concerns stems from the lack of knowledge regarding how to take part in these activities. 
+
+In this section, we have provided a high-level overview and guide for professional development opportunities during graduate school, including **conference attendance, publishing, grant writing, and teaching/research assistantships**
+
+##**7.2 Conferences##
+Conferences are an essential academic experience, and are an excellent opportunity for graduate students to learn from peers studying in their field, network with others, and present original research to the academic community. Potential benefits of conference attendance may include ([Conference Monkey, 2018](https://conferencemonkey.org/insight/8-benefits-of-attending-conferences-1038397)):
+
+1. Gaining feedback on your work from experts in the field: presenting your work as a poster or in a presentation allows you to get feedback from other experts in the field to improve, refine or continue your work.
+
+2. Networking with other people in your field (including both experts and other graduate students), which could lead to collaborative research and/or work opportunities. 
+
+3. Allowing you to improve your presentation and communication skills
+
+4. Staying up to date on the latest research in your field.
+
+###**7.2.1 How Do I Apply for Conferences?**
+Below is a high-level overview of how to apply for a conference. Look for a conference in your field of study. Your supervisor can help you find a suitable conference for your work. Your conference presentation can be based on presenting the findings of original research (including **literature reviews, primary research, or secondary analyses**), **initiatives or projects** you have developed. Different conferences have different requirements (for example, some will require a paper you wish to present to be published before the conference date, while others will not), so be sure to read up on those carefully.
+
+**Applying for a Conference**
+**Step 1:**  Write a concise abstract of your paper, research, project or initiative. Every conferences will have different specifications in terms of format and word count for abstract submissions, but these are often in the realm of 200-300 words long.
+**Step 2:** If your abstract is accepted, you will receive an e-mail notification. You will usually need to indicate your acceptance to the conference organizer. At this point, you can begin to create your presentation. 
+
+**Resources for Conference Attendance**
+
+**Surviving Your First Conference**
+The Professor is In is a blog and business run by Dr. Karen Kelsky, who specializes in providing career advice to academics (and ex-academics). This blog post will walk you through surviving your very first conference. ([Click Here](https://theprofessorisin.com/2020/01/09/surviving-your-first-conference-tips-for-anxious-newbies/))
+
+###**7.2.2 Presentation Formats**
+Conference presentations can come in several formats, including poster or oral. Every field of study and conference is different. Be sure to double check whether you need to indicate what format you would like to present in before submitting your abstract.
+
+**Poster Presentation**
+Poster presentations at conferences are one-page summaries of a research project or initiative. These summaries are printed and hung up in a large hall with other posters (at an in-person conference). Conference attendees will walk around the hall to read and ask questions about posters during allotted "poster presentation" times (outside of these times, you are free to enjoy the conference yourself!). As presenter, your responsibility is to talk viewers through your poster, and answer any questions they may have. 
+
+At some conferences, there will be a judging component where you may have an opportunity to win an award for your poster presentation. In this case, you will be expected to provide a formal presentation of your poster contents to one or more judges. 
+
+**Since the onset of the COVID-19 pandemic, many conferences have moved to an online format.** Some conferences employ a "live" element to their online conferences, where poster authors are required to "attend" their poster and provide a presentation when required. Other online conferences offer a more asynchronous "offline" option for poster authors, where questions can be submitted to authors to be answered later on. **Be sure to check the format and attendance requirements of the conference you apply to!**
+
+**Oral Presentation**
+INDIVIDUAL
+Oral presentations are generally harder to come by than poster presentations. For both, the application process is the same. Where they differ is in the format.
+You will be provided with a presentation "slot", during which you will give a slideshow of your research presented to an audience. Your audience may be made up of different types of people (i.e., other students, trainees, faculty members, etc.), which is important to consider when putting together your presentation.  Be prepared for a 5-10 minute Q&A period at the end of your presentation. **Always stick to the allotted time.** The Q&A is usually mediated by a moderator for your presentation. 
+
+PANEL
+In a panel interview, you will speak alongside several other experts in your field of study on a particular topic. Sometimes, individuals will be invited to participate in a panel discussion where the format is entirely a Q&A. A moderator will pose questions to you (usually you'll get to see these in advance), and will then take questions from the audience. Other panel presentations are made up of members on a collaborative team project or initiative, with a planned, shared presentation, followed by a Q&A period.
+
+TIPS
+- Most presentations are 20 minutes with 5 minutes for questions/discussion, but they may be a bit longer depending on the conference. You will need to check this out in advance.  
+- It is helpful to develop one slide per minute (excluding the title slide) to help  manage your time. Each slide should have enough information related to it to take one minute to discuss.  Students tend to put too many slides and and then have to rush or be cut off.
+
+>Note: Conference registration and attendance can be expensive, so be sure to discuss if your supervisor or program has funds to support your conference attendance, especially if there is travel involved. Usually there is special discounted pricing for students and/or trainees.
+
+
+##**7.3 Publishing and the Peer Review Process**
+An important part of graduate school is gaining experience with publishing your work in a scientific, peer-reviewed journal. To do this, your work will undergo the peer review process. Peer review is defined as the “process of subjecting an author's scholarly work, research or ideas to the scrutiny of others who are experts in the same field,” ([Kelly et al. 2014](https://pmc.ncbi.nlm.nih.gov/articles/PMC4975196/)). It is intended to ensure that only high-quality research is being published in journals and to improve manuscripts submitted for publication
+
+**Single Blind**: The identity of the reviewer is concealed, but the author’s identity is revealed.
+**Double Blind**: Identities of the reviewer and the author are concealed.
+**Open Peer Review**: The reviewer and the author know each other’s identity.
+
+###**7.3.1 Peer Review Process**
+1. A researcher submits their paper to a relevant journal in their field
+
+2. The editors of the journal review the paper to ensure it meets the focus and criteria of the journal. If the paper passes this initial review by the editor, then it is sent for peer review. 
+
+3. The paper is sent to accomplished researchers who will review the article (called peer reviewers or referees). Reviewers will assess the originality, methods, validity and significance of the research and judge if the work will contribute or advance the knowledge in the field. They will recommend one of many options to the editor :
+- Accept without changes
+- Accept with minor revisions
+- Accept after major revisions
+- Revise and Resubmit
+- Reject the paper
+
+4. If it is recommended the paper be revised, comments and feedback from peer reviewers will be sent to the submitting scientist. The scientists will address these comments in a response to reviewers, edit their manuscript based on these comments, then resubmit the paper again.
+
+5. Upon re-review of the manuscript based on review comments, the paper is rejected, accepted, or another revision takes place. If the paper is accepted, then it will go into the production stage to be formatted and eventually published in journals. 
+
+**Open Access Journals and Publishing Fees**
+- Open access journals are those whose published research is distributed freely online, without any barriers to access. Conversely, non-open access journals require a subscription or pay-per-view charges to view research outputs. 
+
+- While open access journals may increase the visibility of research, they come at a cost to the submitting author. These journals will charge publication fees for journals (often called article processing charges) to authors to fund the journal ([Bjork & Solomon, 2012](https://link.springer.com/article/10.1186/1741-7015-10-73)). Typically, the leading open access journals charge $2000 USD- $3000 USD for publishing charges ([Bjork & Solomon, 2012](https://link.springer.com/article/10.1186/1741-7015-10-73)).
+
+- Be sure to talk to your supervisor to see if they have funding for these charges. If not, be aware of potential funding opportunities you can apply for, such as grants that support the publication of researchers work. 
+
+**Revisions**
+It is incredibly rare for articles to be accepted without revisions, so expect (potentially many) revisions from reviewers. Typically, articles will be reviewed by 1-3+ experts, and authors are given a few months to return a revised copy of their manuscript, along with a point-by-point response to each inquiry posed by reviewers. Most papers will get revisions suggested, do not be disheartened if this happens to you!
+
+**Journal Acceptance Rates**
+It can be frustrating if a paper gets rejected from a journal, but it is wise to know that this happens frequently and is a part of the publishing process. The average acceptance rate for papers submitted is 50%, but this acceptance rate can be much smaller for high-impact journals ([The Chicago School, 2021](https://www.thechicagoschool.edu/insight/psychology/want-to-avoid-grad-school-burnout-try-these-5-tips/#:~:text=While%20grad%20school%20burnout%20may,to%20drop%20out%20of%20school)). 
+
+If your paper is rejected, try to not take it as a personal failure; instead, if the editor leaves constructive comments, take the comments and situation as a learning opportunity. Revise your paper and try again!
+
+**Timeline**
+The peer review process can (and often is) very long and arduous. If the article is accepted for revisions, editors often ask reviewers to complete reviews within 3-4 weeks, but this can be delayed, especially when there is difficulty in finding appropriate reviewers, delayed responses from reviewers, or unhelpful responses from reviewers ([Editor Resources, n.d.](https://editorresources.taylorandfrancis.com/managing-peer-review-process/#:~:text=Journals%20usually%20ask%20reviewers%20to,peer%20review%20process%20will%20take)). Patience and perseverance are key in this process!
+
+**Overview of the Peer Review Process**
+This guide created by BMC journals introduces the peer review process. 
+([Check it out](https://www.springernature.com/gp/authors/campaigns/how-to-peer-review))
+
+##**7.4 Grant Writing**
+Similar to publishing and attending conferences, writing grant applications to help fund your research is an important skill to develop in graduate school. Do not underestimate the amount of work that goes in to submitting a grant application. These processes can be overwhelming, so we've included some tips for writing grant applications below.
+
+(see the diagram in module - not sure how to add a single photo)
+
+###**7.4.1 Finding Grant Opportunities**
+Your university program may alert you to grant opportunities, but you can also contact your program or department of Graduate Studies to find out more. Ask your peers, colleagues and in particular, your supervisor. You may also find a non-profit organization with a similar interest to your work offering funding for research in your area.
+
+Search national funding agency websites. These sites will often have databases or lists of awards that may be applicable to you. 
+
+**WRITING A PROPOSAL**
+Your proposal is a presentation of your project, or in other words, a summary of your objectives, plan to achieve these objectives and your ability to carry this out if you receive this grant ([Candid Learning, n.d.](https://learning.candid.org/grant-proposals/272645)).  
+
+Each grant will have specific requirements for their proposals, generally, the following elements are required ([The Writing Center, 2022](https://writingcenter.unc.edu/tips-and-tools/grant-proposals-or-give-me-the-money/), ([Candid Learning, n.d.](https://learning.candid.org/grant-proposals/272645)):
+- Title Page
+- Abstract
+- Introduction: You state the overall problem, your purpose of research and the significance of the research
+- Literature review 
+- Project details: objectives, methods, outcomes or deliverables, evaluation and dissemination/implementation strategy
+- Personnel on the project: often includes the primary investigator, co-investigators and other such as research assistants, graduate students, statisticians, etc. 
+- Budget with a justification
+See our ‘resources’ section for a link to an excellent overview of grant writing and details on how to write a proposal.
+
+##**7.5 Assistantships**
+There are two main types of assistantships that can serve to further your career development as a graduate student:
+
+**Research Assistant**
+RAs typically work to support a researcher/faculty member with ongoing work in an existing research portfolio. Depending on your research experience, you may be asked to anything ranging from supporting project logistics, data entry, literature reviews, analysis, drafting grants and/or written results, and more. 
+
+Research Assistantships are fantastic ways to offset the costs of your education while gaining valuable real world experience in your field. Typically, you will work for a faculty member, supporting an existing program of research. As noted above, your duties may vary. Be sure to communicate with your employer what your interests are in terms of the things you would like to learn. Being transparent about this may open up more opportunities to you.
+
+**Teaching Assistant**
+TAs are assigned to a specific class and instructor. TA duties will vary based on a few things, including the instructor, your experience, and the type of class. For example, TAs are often responsible for running seminars or labs in courses where those are part of the curriculum, for grading assessments, corresponding with students, and administrative work (i.e., grade entry).
+
+Teaching Assistantships are an excellent way to improve your interpersonal skills, presentations skills and leadership as a graduate student. If you are interested in a career in academia, TAships are an important part of your training. TAing can be a significant time commitment, so it is important to budget your time accordingly. Many courses will require more commitment during exam season (that is, midterm and end of term) so it is important to account for this when planning out your own work schedule and balancing it with your own academic responsibilities.
+
+Some schools/programs will offer RA and/or TA positions to graduate students as part of their funding package - be sure to look into this in your home department. In other cases, opportunities might be publicly posted on department websites. Don't be afraid to seek out opportunities in different, but related departments! Reaching a bit outside of your comfort zone is how you grow and develop additional skillsets.
+
+**TA Checklist for Questions to Ask** 
+The University of Waterloo has created a list of questions to help clarify your role, taken from the Handbook for Teaching Assistants by the University of Delaware. 
+([Check it out](https://uwaterloo.ca/centre-for-teaching-excellence/catalogs/tip-sheets/teaching-assistant-checklist-questions-ask))
+
+**10 Tips for First-Time TAs**
+A list of tips and tricks for those new to their role as a teaching assistant.
+([Check it out](https://academicpositions.com/career-advice/10-tips-for-first-time-teaching-assistants))
+
+
+
+#**Module Summary**
+```{=html}
+<div class="section-summary">
+  <h3>3.3 Section Summary</h3>
+  <ul>
+    <li>There are high frequencies of mental health illnesses, such as anxiety and depression, in graduate students(opens in a new tab)(opens in a new tab). </li>
+    <li>In addition to mental health concerns, students have frequently reported experiencing negative emotions such as feeling overwhelmed and exhausted.</li>
+    <li>Unique stressors for graduate students include: financial concerns, the need to publish and complete research, ambiguous expectations, which could include from their program, committee and/or supervisor, and uncertainty of employment or work available once degrees are complete.</li>
+     <li>UGraduate students also experience high rates of loneliness, social isolation, and imposter syndrome, all of which are covered in detail in this module.</li>
+  </ul>
+</div>
+```
+
+#**Learning Outcomes**
+By now, you should be able to:
+1. Understand the prevalence of mental illness amongst graduate students
+2. Learn tips for maintaining a good mental health in graduate school, including how to maintain a good relationship with your supervisor
+3. Understand what imposter syndrome is and how to identify and manage it. 
+4. Learn about professional development throughout graduate school. 
+
+
+#**Resources**
+Below, you will find many types of resources specific to graduate students, focusing on supervision, burnout and imposter syndrome. 
+
+##**Supervisory Guides**
+**Brown University** 
+A guide to help graduate students of any institution to navigate and learn about mentor-mentee relationships. 
+([Access here](https://sheridan.brown.edu/)).
+
+**University of Alberta**  
+Another supervisory guide available to students from any institution. 
+([Access here](https://www.ualberta.ca/en/graduate-studies/media-library/about/faculty-and-staff/resources-for-supervisors-and-graduate-coordinators/20181018-guidelines-for-supervision-and-mentorship-for-faculty-and-administrators.pdf)). 
+
+##**Media**
+**SMHN: Connection Toolkit**
+Making connections with new people can be hard, especially if you have moved to a new city or province for school. Created by students like you, our connections toolkit will introduce you to some tips and tricks for getting involved at school and meeting new people who you share common interests with. Containing a special section on graduate students, the kit also includes some education on consent, navigating healthy vs. toxic relationships, and how to go about healthy conflict resolution.
+([Access here](https://share.articulate.com/AZdKDty9J9oYImHui0YKX#/)). 
+
+**Journal Article: Repeated Rejection, Imposter Syndrome and Burnout** 
+This article details how academics can cause many challenges including repeated rejection, imposter syndrome, and burnout. It aims to educate and destigmatize these common experiences through the sharing of personal stories. 
+([Access here](https://journals.sagepub.com/doi/10.1177/1745691619898848)). 
+
+
+##**Professional Development**
+**Conference Application**
+A Toolkit to maximize the academic conference experience created by the ([Journal of Graduate Medical Education](ohttps://jgme.kglmeridian.com/view/journals/jgme/14/2/article-p144.xml)).
+
+**Peer Review**
+([BMC](https://www.springernature.com/gp/authors/campaigns/how-to-peer-review)) provides a great introduction to the peer review process. 
+
+**Grant Proposals**
+The Writing Centre(opens in a new tab) from the University of North Carolina at Chapel Hill has created a guide to grant proposal writing. 
+
+**Teaching Assistantships**
+The ([University of Waterloo](https://uwaterloo.ca/centre-for-teaching-excellence/catalogs/tip-sheets/teaching-assistant-checklist-questions-ask)) has created a Teaching Assistant Checklist to help assist you in the role. 
+10 Tips for First Time Teaching Assistants created by ([Academic Positions](https://academicpositions.com/career-advice/10-tips-for-first-time-teaching-assistants))
+
+
+#**Contributors**
+The conceptualization and content development for all of our modules is completed by our student volunteers and reviewed for validity and reliability by subject matter experts (researchers and/or healthcare practitioners). 
+
+**Madison MacKinnon, PhD**
+University of Toronto
+Content Developer
+
+**Sally Zheng**
+PhD Candidate, Clinical Psychology 
+Toronto Metropolitan University
+Content Developer
+
+**Colette Steer**
+Manager, Graduate Experience,
+School of Graduate Studies
+Queen's University
+Expert Reviewer
+
+**Brooke Linden, PhD** 
+Research Scientist/Adjunct Professor
+Queen's University
+Expert Reviewer
+
+**Heather Stuart, PhD**
+Graduate Program Director, Department of Public Health Sciences
+Queen's University
+Expert Reviewer
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- If you want to add a quote overlaid on a banner image, use the code below — replace src image as above, the quote text, and attribution (if there is one), e.g., - Canadian Mental Health Association, 2023-->
+
+```{=html}
+<div class="crop-bottom-half">
+  <img src="images/IMAGE FILENAME e.g. module2-img3.jpeg" alt="<!-- IMAGE DESCRIPTION -->">
+  <div class="image-text">
+    <span class="quote">"QUOTE TEXT HERE"</span>
+    <span class="attribution">ATTRIBUTION e.g. – Canadian Mental Health Association</span>
+  </div>
+</div>
+```
+
+<!-- ADDING IMAGES -->
+
+<!--If you want to add two circular images side by side — use the code in the grey html box below - all you need to replace is the img src path (which will always be "images/module#-img#") and the alt text (description of the photo for accessibility). Note that those images won't load until they are linked to the root folder in github, so just send Brooke the image files as well as this syntax doc when you are done creating the module -->
+
+```{=html}
+<div class="circle-pair">
+  <div class="circle">
+    <img src="images/<!-- IMAGE FILENAME e.g. module2-img1.jpeg -->" alt="<!-- IMAGE DESCRIPTION -->" />
+  </div>
+  <div class="circle">
+    <img src="images/<!-- IMAGE FILENAME e.g. module2-img2.jpeg -->" alt="<!-- IMAGE DESCRIPTION -->" />
+  </div>
+</div>
+```
+
+
+<!--If you want to add a grid of three square photos, use this code below. Same instructions as above.-->
+
+```{=html}
+<div class="square-trio">
+  <div class="square">
+    <img src="images/<!-- IMAGE FILENAME -->" alt="<!-- IMAGE DESCRIPTION -->" />
+  </div>
+  <div class="square">
+    <img src="images/<!-- IMAGE FILENAME -->" alt="<!-- IMAGE DESCRIPTION -->" />
+  </div>
+  <div class="square">
+    <img src="images/<!-- IMAGE FILENAME -->" alt="<!-- IMAGE DESCRIPTION -->" />
+  </div>
+</div>
+```
+
+------------------------------------------------------------------------
+
+## **1.2 SUBSECTION TITLE**
+
+Add body text here.
+
+- This will add a bulleted point
+- This will add a second bulleted point
+
+1. You can also add a numnbered list
+2. Like this
+
+:::callout-note
+If you want to add a callout box, this is the syntax you use.
+:::
+
+<!-- MORE COMPLEX: Flippable flashcard grid — three clickable cards, image on front, text on back. This involves a bit more editing of the HTML in the grey box below. IGNORE THE <style> components - leave as is. -->
+<!-- Replace YOUR_IMAGE_URL_1/2/3 with relative image paths (e.g. images/card1.jpeg).        -->
+<!-- Replace Card Title and body text for each card.                                          -->
+<!-- To add more cards: copy one <div> block (the outer <div> wrapping fc-card + fc-hint)    -->
+<!-- and increment the id (fc-card-3, fc-card-4, ...). No other changes needed.              -->
+```{=html}
+<style>
+  .fc-wrap { display: flex; gap: 1.2em; flex-wrap: wrap; justify-content: center; max-width: 760px; margin: 0 auto; padding: 1rem 0; font-family: 'Open Sans', sans-serif; }
+  .fc-card { width: 220px; height: 220px; perspective: 1000px; cursor: pointer; }
+  .fc-inner { position: relative; width: 100%; height: 100%; transform-style: preserve-3d; transition: transform 0.55s ease; border-radius: 12px; }
+  .fc-card.flipped .fc-inner { transform: rotateY(180deg); }
+  .fc-front, .fc-back { position: absolute; width: 100%; height: 100%; backface-visibility: hidden; border-radius: 12px; overflow: hidden; }
+  .fc-front { background: #1C2944; }
+  .fc-front img { width: 100%; height: 70%; object-fit: cover; display: block; }
+  .fc-front-label { color: white; font-size: 0.78rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; padding: 0.8em 1em; text-align: center; }
+  .fc-back { background: #f0f2f5; border: 2px solid #1C2944; transform: rotateY(180deg); display: flex; flex-direction: column; justify-content: center; padding: 1.2em; box-sizing: border-box; }
+  .fc-back-title { font-size: 0.78rem; font-weight: 700; color: #1C2944; margin: 0 0 0.5em 0; text-transform: uppercase; letter-spacing: 0.05em; }
+  .fc-back-body { font-size: 0.78rem; line-height: 1.6; color: #444; margin: 0; }
+  .fc-hint { text-align: center; font-size: 0.7rem; color: #aaa; margin-top: 0.4em; }
+</style>
+
+<div class="fc-wrap">
+
+  <div>
+    <div class="fc-card" id="fc-card-0">
+      <div class="fc-inner">
+        <div class="fc-front">
+          <img src="<!-- YOUR_IMAGE_URL_1 e.g. images/card1.jpeg -->" alt="<!-- IMAGE DESCRIPTION -->"/>
+          <div class="fc-front-label"><!-- CARD TITLE 1 --></div>
+        </div>
+        <div class="fc-back">
+          <p class="fc-back-title"><!-- CARD TITLE 1 --></p>
+          <p class="fc-back-body"><!-- BACK TEXT FOR CARD 1 --></p>
+        </div>
+      </div>
+    </div>
+    <p class="fc-hint">click to flip</p>
+  </div>
+
+  <div>
+    <div class="fc-card" id="fc-card-1">
+      <div class="fc-inner">
+        <div class="fc-front">
+          <img src="<!-- YOUR_IMAGE_URL_2 e.g. images/card2.jpeg -->" alt="<!-- IMAGE DESCRIPTION -->"/>
+          <div class="fc-front-label"><!-- CARD TITLE 2 --></div>
+        </div>
+        <div class="fc-back">
+          <p class="fc-back-title"><!-- CARD TITLE 2 --></p>
+          <p class="fc-back-body"><!-- BACK TEXT FOR CARD 2 --></p>
+        </div>
+      </div>
+    </div>
+    <p class="fc-hint">click to flip</p>
+  </div>
+
+  <div>
+    <div class="fc-card" id="fc-card-2">
+      <div class="fc-inner">
+        <div class="fc-front">
+          <img src="<!-- YOUR_IMAGE_URL_3 e.g. images/card3.jpeg -->" alt="<!-- IMAGE DESCRIPTION -->"/>
+          <div class="fc-front-label"><!-- CARD TITLE 3 --></div>
+        </div>
+        <div class="fc-back">
+          <p class="fc-back-title"><!-- CARD TITLE 3 --></p>
+          <p class="fc-back-body"><!-- BACK TEXT FOR CARD 3 --></p>
+        </div>
+      </div>
+    </div>
+    <p class="fc-hint">click to flip</p>
+  </div>
+
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  document.querySelectorAll('.fc-card').forEach(function (card) {
+    card.addEventListener('click', function () {
+      card.classList.toggle('flipped');
+    });
+  });
+});
+</script>
+```
+
+<!-- For a tabbed display, use the following code. Like the above, more HTML coding is required here, but it is fairly simple once you know what to look for. Ignore the <style> component - anything you need to edit is in the <div> sections. -->
+
+```{=html}
+<div style="font-family: 'Open Sans', sans-serif; border: 1px solid #dde3ec; border-radius: 12px; overflow: hidden; max-width: 680px; margin: 0 auto;">
+
+  <div style="display: flex; border-bottom: 1px solid #dde3ec;">
+    <button id="tbtn-0" onclick="switchTab(0)" style="flex:1; padding: 1.6em 1em; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; text-align: center; cursor: pointer; background: white; color: #1C2944; border: none; border-right: 1px solid #dde3ec; border-bottom: 3px solid #1C2944;">Social</button>
+    <button id="tbtn-1" onclick="switchTab(1)" style="flex:1; padding: 1.6em 1em; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; text-align: center; cursor: pointer; background: #f0f2f5; color: #999; border: none; border-right: 1px solid #dde3ec; border-bottom: 3px solid transparent;">Biological</button>
+    <button id="tbtn-2" onclick="switchTab(2)" style="flex:1; padding: 1.6em 1em; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; text-align: center; cursor: pointer; background: #f0f2f5; color: #999; border: none; border-bottom: 3px solid transparent;">Psychological</button>
+  </div>
+
+  <div id="tab-0" style="display:block; padding: 2em 2.2em; background: white;">
+    <p style="font-size: 0.88rem; line-height: 1.7; color: #333; margin: 0 0 1em 0;"><strong style="color:#1C2944;">Social risk factors</strong> for the development of mental illness or mental health deterioration can include:</p>
+    <ul style="font-size: 0.88rem; line-height: 1.7; color: #333; padding-left: 1.4em; margin: 0;">
+    <!-- These are list items, or bullet points-->
+      <li style="margin-bottom:0.5em;">Lack of social support and/or isolation from others</li>
+      <li style="margin-bottom:0.5em;">Abusive relationships</li>
+      <li style="margin-bottom:0.5em;">Weak social safety net (family and community factors)</li>
+      <li style="margin-bottom:0.5em;">Low socioeconomic status</li>
+      <li>Exposure to discrimination</li>
+    </ul>
+  </div>
+
+  <div id="tab-1" style="display:none; padding: 2em 2.2em; background: white;">
+    <p style="font-size: 0.88rem; line-height: 1.7; color: #333; margin: 0 0 1em 0;"><strong style="color:#1C2944;">Biological risk factors</strong> for the development of mental illness or mental health deterioration can include:</p>
+    <ul style="font-size: 0.88rem; line-height: 1.7; color: #333; padding-left: 1.4em; margin: 0;">
+      <li style="margin-bottom:0.5em;">Genetic vulnerability</li>
+      <li style="margin-bottom:0.5em;">Health comorbidities (or generally poor physical health)</li>
+      <li style="margin-bottom:0.5em;">Poor nutrition or sleep patterns</li>
+      <li style="margin-bottom:0.5em;">Neurological deficits or injuries</li>
+      <li>Substance abuse</li>
+    </ul>
+  </div>
+
+  <div id="tab-2" style="display:none; padding: 2em 2.2em; background: white;">
+    <p style="font-size: 0.88rem; line-height: 1.7; color: #333; margin: 0 0 1em 0;"><strong style="color:#1C2944;">Psychological risk factors</strong> for the development of mental illness or mental health deterioration can include:</p>
+    <ul style="font-size: 0.88rem; line-height: 1.7; color: #333; padding-left: 1.4em; margin: 0;">
+      <li style="margin-bottom:0.5em;">Prolonged exposure to stress</li>
+      <li style="margin-bottom:0.5em;">Traumatic experience(s)</li>
+      <li style="margin-bottom:0.5em;">Dissatisfaction with current life status</li>
+      <li style="margin-bottom:0.5em;">Self-depreciation</li>
+      <li>Certain personality traits, thoughts, emotions, and attitudes</li>
+    </ul>
+  </div>
+
+</div>
+
+<script>
+function switchTab(idx) {
+  for (let i = 0; i < 3; i++) {
+    const btn = document.getElementById('tbtn-' + i);
+    const panel = document.getElementById('tab-' + i);
+    if (i === idx) {
+      btn.style.background = 'white';
+      btn.style.color = '#1C2944';
+      btn.style.borderBottom = '3px solid #1C2944';
+      panel.style.display = 'block';
+    } else {
+      btn.style.background = '#f0f2f5';
+      btn.style.color = '#999';
+      btn.style.borderBottom = '3px solid transparent';
+      panel.style.display = 'none';
+    }
+  }
+}
+</script>
+```
+
+
+------------------------------------------------------------------------
+
+<!-- For the section summary, use this code which puts the content into a nice, blue box to differentiate from the rest of the module content. The <li> tags </li> are what you use to make a bullet point list. -->
+
+```{=html}
+<div class="section-summary">
+  <h3>3.3 Section Summary</h3>
+  <ul>
+    <li>Social, biological, and psychological factors can increase our risk of developing a mental illness or experiencing mental health deterioration.</li>
+    <li>Some of these factors may be out of our control (i.e., genetic vulnerabilities), while others are very much within our control (i.e., nutrition, physical activity, and sleep quality).</li>
+    <li>Our physical and mental health are closely related - taking care of ourselves physically can help us to maintain good mental health.</li>
+  </ul>
+</div>
+```
